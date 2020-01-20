@@ -1,0 +1,57 @@
+Installation:
+make
+
+Execution:
+bin/sspexp_run
+
+Command Usage: 
+(the first parameter specifies the procedure be executed)
+-------------------------------------------------------------------
+(1) -x: Indexing by different ordering schemes:
+	sspexp_run -x -d [directedGraphFlag] -w [weightedGraphFlag] -s [specialFlag] -m [orderingSchemes] [-a [s_beta]] -g [graphFileName] -e [exportLabelFileName] 
+-------------------------------------------------------------------
+(2) -q: Query testing for a label file:
+	sspexp_run -q -d [directedGraphFlag] -s [specialFlag] [-o [orderFileName]] -l [inputLabelFileName] -n [queryNum] 
+-------------------------------------------------------------------
+(3) -y: Indexing by different construction paradigms (given ordering file):
+	sspexp_run -y -d [directedGraphFlag] -w [weightedGraphFlag] -m [consturctionParadigms] -g [graphFileName] -o [orderFileName] -e [exportLabelFileName] 
+-------------------------------------------------------------------
+Parameter explanation:
+	[directedGraphFlag]: 0 or 1, for undirected and directed graphs, default is 0
+	[weightedGraphFlag] = 0 or 1, for unweighted and weighted graphs, default is 0
+	[specialFlag] = 0: default label
+ 			1: path label
+ 			2: bp label
+ 			3: HLC label
+ 			4: HLCM label
+	[orderingSchemes] = 0: DHP 
+ 			1: BHP
+ 			2: SHP
+	[s_beta]: [Optional]trade-off parameter for BHP, default is 1
+	[queryNum]: the number of randomly generated non-duplicated reachable queries. Extra half of queryNum will be generated for warm-up
+	[orderFileName]: only required for path query processing
+	[consturctionParadigms] = 0: Hub Pushing Algorithm 
+ 				1: Hub Pulling Algorithm
+-------------------------------------------------------------------
+Examples:
+Indexing SHP with BP optimization for directed unweighted graph a.txt, outputing alabel.label and alabel.order
+	sspexp_run -x -d 1 -w 0 -s 2 -m 2 -g a.txt -e alabel 
+Indexing Hub Pushing Algorithm given odering file alabel.order for directed unweighted graph a.txt, outputing alabel.label
+	sspexp_run -y -d 1 -w 0 -m 0 -g a.txt -o alabel.order -e alabel 
+Query processing for 1000000 random queries for directed path label alabel_path.label
+	sspexp_run -q -d 1 -s 1 -l alabel_path.label -n 1000000
+Query processing for 1000000 random queries for directed HLC label alabel_hlc.label with alabel_hlc.order
+	sspexp_run -q -d 1 -s 1 -o alabel_hlc.order -l alabel_hlc.label -n 1000000
+
+Datasets:
+(example unweighted graph) 
+0 1
+1 3
+2 3
+3 0
+
+(example weighted graph)
+0 1 2
+1 3 1
+2 3 3
+3 0 5

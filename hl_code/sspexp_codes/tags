@@ -1,0 +1,762 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BFS	src/graph_search.h	/^	EdgeWeight BFS(NodeID& source, NodeID& target, Graph& graph) {$/;"	f	namespace:graph_search
+BFS	src/graph_search.h	/^	void BFS(vector<EdgeWeight> &distances, vector<NodeID> &que, NodeID& que_h, vector<bool> &vis, NodeID &source, Graph &graph) {$/;"	f	namespace:graph_search
+BFS_clear	src/graph_search.h	/^	void BFS_clear(vector<EdgeWeight> &distances, vector<NodeID> &que, NodeID& que_h, vector<bool> &vis) {$/;"	f	namespace:graph_search
+BFS_init	src/graph_search.h	/^	void BFS_init(vector<EdgeWeight> &distances, vector<NodeID> &que, NodeID& que_h, vector<bool> &vis) {$/;"	f	namespace:graph_search
+BFS_rank	src/graph_search.h	/^	void BFS_rank(const char* query_file, int num_sources, Graph& graph) {$/;"	f	namespace:graph_search
+BFS_with_target	src/graph_search.h	/^	void BFS_with_target(vector<EdgeWeight> &distances, vector<NodeID> &que, NodeID& que_h, vector<bool> &vis, NodeID &source, Graph &graph, NodeID target, EdgeWeight& dis) {$/;"	f	namespace:graph_search
+BPL	src/construction.h	/^	BPL(Graph &graph, Ordering &orders) {$/;"	f	class:BPL
+BPL	src/construction.h	/^	BPL(Graph &graph, Ordering &orders, bool directed_flags) {$/;"	f	class:BPL
+BPL	src/construction.h	/^class BPL {$/;"	c
+BPLabel	src/labels.h	/^	BPLabel() {$/;"	f	class:BPLabel
+BPLabel	src/labels.h	/^class BPLabel {$/;"	c
+BP_Betweenness_Ordering	src/ordering.h	/^	BP_Betweenness_Ordering(NodeID k, double beta, Graph& graph, NodeID stopv, long long bound_times = 10, long long trans_times = 8) {$/;"	f	class:BP_Betweenness_Ordering
+BP_Betweenness_Ordering	src/ordering.h	/^class BP_Betweenness_Ordering :public Ordering {$/;"	c
+BUILD_SMALL_TREE_FLAG	src/ordering.h	/^	bool BUILD_SMALL_TREE_FLAG = false;$/;"	m	class:BP_Betweenness_Ordering
+BUILD_SMALL_TREE_FLAG	src/ordering.h	/^	bool BUILD_SMALL_TREE_FLAG = false;$/;"	m	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, Graph& graph, NodeID stopv, bool path_flag) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, Graph& graph, NodeID stopv, long long bound_times = 10, long long trans_times = 8) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, Graph& graph, NodeID stopv, long long bound_times, long long trans_times, bool slevel, bool directed_flags) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, Graph& graph, NodeID stopv, long long bound_times, long long trans_times, double mem_bound) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, WGraph& wgraph, NodeID stopv, bool path_flag) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, WGraph& wgraph, NodeID stopv, long long bound_times = 10, long long trans_times = 8) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, WGraph& wgraph, NodeID stopv, long long bound_times, long long trans_times , bool slevel, bool directed_flags) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, WGraph& wgraph, NodeID stopv, long long bound_times, long long trans_times, double mem_bound) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, WGraph& wgraph, NodeID stopv, long long bound_times, long long trans_times, double mem_bound, double c_paras) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^	Betweenness_Ordering(NodeID k, double beta, WGraph& wgraph, NodeID stopv, long long bound_times, long long trans_times, double mem_bound, double c_paras, double es_paras) {$/;"	f	class:Betweenness_Ordering
+Betweenness_Ordering	src/ordering.h	/^class Betweenness_Ordering :public Ordering {$/;"	c
+BiBFS	src/graph_search.h	/^	EdgeWeight BiBFS(NodeID& source, NodeID& target, Graph& graph) {$/;"	f	namespace:graph_search
+BiDijkstra	src/graph_search.h	/^	EdgeWeight BiDijkstra(NodeID& source, NodeID& target, WGraph& wgraph) {$/;"	f	namespace:graph_search
+Bottomup	src/construction.h	/^	Bottomup(CHGraph &chgraph, Ordering &orders, bool directed_flag, double& time_contracting, const double SWITCH_DEGREE_PARA, const int HOP_LIMIT_PARA) {$/;"	f	class:Bottomup
+Bottomup	src/construction.h	/^	Bottomup(CHGraph &chgraph, Ordering &orders, double& time_contracting) {$/;"	f	class:Bottomup
+Bottomup	src/construction.h	/^	Bottomup(CHGraph &chgraph, Ordering &orders, double& time_contracting, bool CH_ORDER_FLAGS) {$/;"	f	class:Bottomup
+Bottomup	src/construction.h	/^	Bottomup(CHGraph &chgraph, Ordering &orders, double& time_contracting, const double SWITCH_DEGREE_PARA, const int HOP_LIMIT_PARA) {$/;"	f	class:Bottomup
+Bottomup	src/construction.h	/^class Bottomup : public construction {$/;"	c
+Bucket	src/construction.h	/^	typedef vector<pair<NodeID, EdgeWeight> >  Bucket;$/;"	t	class:Bottomup
+CHGraph	src/graph.h	/^	CHGraph() {$/;"	f	class:CHGraph
+CHGraph	src/graph.h	/^class CHGraph : public Graph {$/;"	c
+CH_Dijkstra	src/graph_search.h	/^	void CH_Dijkstra(vector<EdgeWeight> &distances, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<bool>& vis, NodeID& source, const vector<vector<CHGraph::CH_Edge> > adj) {$/;"	f	namespace:graph_search
+CH_Edge	src/graph.h	/^		CH_Edge(NodeID v, NodeID level, EdgeWeight weight) :target(v), level(level), weight(weight) {}$/;"	f	struct:CHGraph::CH_Edge
+CH_Edge	src/graph.h	/^	struct CH_Edge {$/;"	s	class:CHGraph
+CLabel	src/labels.h	/^class CLabel {$/;"	c
+CNT	src/coverage_ordering.h	56;"	d
+CNT	src/coverage_ordering_bp.h	55;"	d
+CNT	src/coverage_ordering_compress.h	55;"	d
+CNT	src/coverage_ordering_path.h	55;"	d
+CNT	src/ordering.h	56;"	d
+CONSTRUCTION_H	src/construction.h	34;"	d
+COVER_ORDERING_BP_H	src/coverage_ordering_bp.h	33;"	d
+COVER_ORDERING_COMPRESS_H	src/coverage_ordering_compress.h	33;"	d
+COVER_ORDERING_H	src/coverage_ordering.h	34;"	d
+COVER_ORDERING_PATH_H	src/coverage_ordering_path.h	33;"	d
+COrdering	src/coverage_ordering.h	/^class COrdering {$/;"	c
+COrdering_BP	src/coverage_ordering_bp.h	/^class COrdering_BP {$/;"	c
+COrdering_C	src/coverage_ordering_compress.h	/^class COrdering_C {$/;"	c
+COrdering_P	src/coverage_ordering_path.h	/^class COrdering_P {$/;"	c
+CPL	src/construction.h	/^	CPL(Graph &graph, Ordering &orders, bool slevel) {$/;"	f	class:CPL
+CPL	src/construction.h	/^	CPL(Graph &graph, Ordering &orders, bool slevel, bool D_FLAGS) {$/;"	f	class:CPL
+CPL	src/construction.h	/^class CPL : public construction {$/;"	c
+CPL_W	src/construction.h	/^	CPL_W(WGraph &wgraph, Ordering &orders, bool slevel) {$/;"	f	class:CPL_W
+CPL_W	src/construction.h	/^	CPL_W(WGraph &wgraph, Ordering &orders, bool slevel, bool D_FLAGS) {$/;"	f	class:CPL_W
+CPL_W	src/construction.h	/^class CPL_W : public construction {$/;"	c
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -w -Wall -Wextra -O3  -std=c++11 -fopenmp$/;"	m
+Closeness_Ordering	src/ordering.h	/^	Closeness_Ordering(NodeID k, Graph& graph) { \/\/ Number of sample roots.$/;"	f	class:Closeness_Ordering
+Closeness_Ordering	src/ordering.h	/^	Closeness_Ordering(NodeID k, WGraph& wgraph) {$/;"	f	class:Closeness_Ordering
+Closeness_Ordering	src/ordering.h	/^class Closeness_Ordering : public Ordering {$/;"	c
+Command	command.h	/^class Command {$/;"	c
+ConstructionParadigms	command/ConstructionParadigms.h	/^    class ConstructionParadigms: public Command{$/;"	c	namespace:command
+Coverage_Ordering	src/coverage_ordering.h	/^	Coverage_Ordering(Graph& graph, bool D_flags){$/;"	f	class:Coverage_Ordering
+Coverage_Ordering	src/coverage_ordering.h	/^	Coverage_Ordering(Graph& graph, vector<NodeID> border){$/;"	f	class:Coverage_Ordering
+Coverage_Ordering	src/coverage_ordering.h	/^	Coverage_Ordering(Graph& graph, vector<NodeID> border, bool test){$/;"	f	class:Coverage_Ordering
+Coverage_Ordering	src/coverage_ordering.h	/^	Coverage_Ordering(WGraph& wgraph){$/;"	f	class:Coverage_Ordering
+Coverage_Ordering	src/coverage_ordering.h	/^	Coverage_Ordering(WGraph& wgraph, bool D_flags, bool W_flags){$/;"	f	class:Coverage_Ordering
+Coverage_Ordering	src/coverage_ordering.h	/^	Coverage_Ordering(WGraph& wgraph, bool directed){$/;"	f	class:Coverage_Ordering
+Coverage_Ordering	src/coverage_ordering.h	/^class Coverage_Ordering : public COrdering {$/;"	c
+Coverage_Ordering_BP	src/coverage_ordering_bp.h	/^	Coverage_Ordering_BP(Graph& graph, bool D_flags){$/;"	f	class:Coverage_Ordering_BP
+Coverage_Ordering_BP	src/coverage_ordering_bp.h	/^	Coverage_Ordering_BP(Graph& graph, vector<NodeID> border){$/;"	f	class:Coverage_Ordering_BP
+Coverage_Ordering_BP	src/coverage_ordering_bp.h	/^class Coverage_Ordering_BP : public COrdering_BP {$/;"	c
+Coverage_Ordering_Compress	src/coverage_ordering_compress.h	/^	Coverage_Ordering_Compress(Graph& graph, bool directed_flag = false, bool second_level_flag = false){$/;"	f	class:Coverage_Ordering_Compress
+Coverage_Ordering_Compress	src/coverage_ordering_compress.h	/^	Coverage_Ordering_Compress(WGraph& wgraph, bool directed_flag = false, bool second_level_flag = false){$/;"	f	class:Coverage_Ordering_Compress
+Coverage_Ordering_Compress	src/coverage_ordering_compress.h	/^class Coverage_Ordering_Compress : public COrdering_C {$/;"	c
+Coverage_Ordering_Path	src/coverage_ordering_path.h	/^	Coverage_Ordering_Path(Graph& graph, bool D_flags){$/;"	f	class:Coverage_Ordering_Path
+Coverage_Ordering_Path	src/coverage_ordering_path.h	/^	Coverage_Ordering_Path(Graph& graph, vector<NodeID> border){$/;"	f	class:Coverage_Ordering_Path
+Coverage_Ordering_Path	src/coverage_ordering_path.h	/^	Coverage_Ordering_Path(WGraph& wgraph){$/;"	f	class:Coverage_Ordering_Path
+Coverage_Ordering_Path	src/coverage_ordering_path.h	/^	Coverage_Ordering_Path(WGraph& wgraph, bool D_flags){$/;"	f	class:Coverage_Ordering_Path
+Coverage_Ordering_Path	src/coverage_ordering_path.h	/^class Coverage_Ordering_Path : public COrdering_P {$/;"	c
+DBPLabel	src/labels.h	/^	DBPLabel() {$/;"	f	class:DBPLabel
+DBPLabel	src/labels.h	/^class DBPLabel {$/;"	c
+DIRECTED	src/coverage_ordering_compress.h	/^		bool DIRECTED = false;$/;"	m	class:Coverage_Ordering_Compress
+DIRECTED_FLAG	src/coverage_ordering.h	55;"	d
+DIRECTED_FLAG	src/coverage_ordering_bp.h	54;"	d
+DIRECTED_FLAG	src/coverage_ordering_compress.h	54;"	d
+DIRECTED_FLAG	src/coverage_ordering_path.h	54;"	d
+DIRECTED_FLAG	src/graph.h	61;"	d
+DIRECTED_FLAG	src/ordering.h	55;"	d
+DIRECTED_FLAG	src/paras.h	/^	bool DIRECTED_FLAG = false;$/;"	m	namespace:SP_Constants
+DLabel	src/labels.h	/^	DLabel() {$/;"	f	class:DLabel
+DLabel	src/labels.h	/^class DLabel : public Label {$/;"	c
+DPLabel	src/labels.h	/^	DPLabel() {$/;"	f	class:DPLabel
+DPLabel	src/labels.h	/^class DPLabel{$/;"	c
+Degree_1_Ordering	src/ordering.h	/^	Degree_1_Ordering(Graph& graph) {$/;"	f	class:Degree_1_Ordering
+Degree_1_Ordering	src/ordering.h	/^class Degree_1_Ordering : public Ordering{$/;"	c
+Degree_Ordering	src/ordering.h	/^	Degree_Ordering(Graph& graph) {$/;"	f	class:Degree_Ordering
+Degree_Ordering	src/ordering.h	/^	Degree_Ordering(WGraph& wgraph) {$/;"	f	class:Degree_Ordering
+Degree_Ordering	src/ordering.h	/^class Degree_Ordering : public Ordering {$/;"	c
+Dijkstra	src/graph_search.h	/^	EdgeWeight Dijkstra(NodeID& source, NodeID& target, CHGraph& chgraph) {$/;"	f	namespace:graph_search
+Dijkstra	src/graph_search.h	/^	EdgeWeight Dijkstra(NodeID& source, NodeID& target, WGraph& wgraph) {$/;"	f	namespace:graph_search
+Dijkstra	src/graph_search.h	/^	void Dijkstra(vector<EdgeWeight> &distances, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<bool>& vis, NodeID& source, WGraph& wgraph) {$/;"	f	namespace:graph_search
+Dijkstra_clear	src/graph_search.h	/^	void Dijkstra_clear(vector<EdgeWeight> &distances, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<bool>& vis) {$/;"	f	namespace:graph_search
+Dijkstra_init	src/graph_search.h	/^	void Dijkstra_init(vector<EdgeWeight> &distances, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<bool>& vis) {$/;"	f	namespace:graph_search
+Dijkstra_rank	src/graph_search.h	/^	void Dijkstra_rank(const char* query_file, int num_sources, WGraph& wgraph) {$/;"	f	namespace:graph_search
+Edge	src/graph.h	/^typedef pair<NodeID, NodeID> Edge;$/;"	t
+EdgeID	src/graph.h	/^typedef long long EdgeID;$/;"	t
+EdgeWeight	src/graph.h	/^typedef  int EdgeWeight;$/;"	t
+Free	src/labels.h	/^	void Free() {$/;"	f	class:BPLabel
+Free	src/labels.h	/^	void Free() {$/;"	f	class:DBPLabel
+Free	src/labels.h	/^	void Free() {$/;"	f	class:DLabel
+Free	src/labels.h	/^	void Free() {$/;"	f	class:DPLabel
+Free	src/labels.h	/^	void Free() {$/;"	f	class:Label
+Free	src/labels.h	/^	void Free() {$/;"	f	class:PLabel
+GRAPH_H	src/graph.h	33;"	d
+GRAPH_SEARCH_H	src/graph_search.h	33;"	d
+GetCurrentTimeSec	src/labels.h	/^	double GetCurrentTimeSec() {$/;"	f	class:Label
+GetCurrentTimeSec	src/labels.h	/^	double GetCurrentTimeSec() {$/;"	f	class:PLabel
+GetCurrentTimeSec	src/time_util.h	/^	double GetCurrentTimeSec() {$/;"	f	namespace:time_util
+Given_Ordering	src/ordering.h	/^	Given_Ordering(char* order_file) {$/;"	f	class:Given_Ordering
+Given_Ordering	src/ordering.h	/^	Given_Ordering(char* order_file, Graph& graph) {$/;"	f	class:Given_Ordering
+Given_Ordering	src/ordering.h	/^	Given_Ordering(char* order_file, WGraph& wgraph) {$/;"	f	class:Given_Ordering
+Given_Ordering	src/ordering.h	/^class Given_Ordering : public Ordering{$/;"	c
+Graph	src/graph.h	/^	Graph() {$/;"	f	class:Graph
+Graph	src/graph.h	/^class Graph {$/;"	c
+INF_WEIGHT	src/construction.h	49;"	d
+INF_WEIGHT	src/graph_search.h	40;"	d
+INF_WEIGHT	src/labels.h	52;"	d
+INF_WEIGHT	src/paras.h	/^	const extern int INF_WEIGHT = std::numeric_limits<int>::max() \/ 3;$/;"	m	namespace:SP_Constants
+IndexProcessing	command/IndexProcessing.h	/^    class IndexProcessing: public Command{$/;"	c	namespace:command
+LABELS_H	src/labels.h	34;"	d
+Label	src/labels.h	/^	Label() {$/;"	f	class:Label
+Label	src/labels.h	/^class Label {$/;"	c
+NULLINDEX	src/heap.h	60;"	d
+NodeEdgeWeightPair	src/graph.h	/^typedef pair<NodeID, EdgeWeight> NodeEdgeWeightPair;$/;"	t
+NodeID	src/graph.h	/^typedef int NodeID;$/;"	t
+ORDERING_H	src/ordering.h	33;"	d
+Ordering	src/ordering.h	/^class Ordering {$/;"	c
+PARAS_H	src/paras.h	33;"	d
+PL	src/construction.h	/^	PL(Graph &graph, Ordering &orders) {$/;"	f	class:PL
+PL	src/construction.h	/^	PL(Graph &graph, Ordering &orders, bool D_FLAGS) {$/;"	f	class:PL
+PL	src/construction.h	/^	PL(Graph &graph, Ordering &orders, bool path_flags, bool directed_flags) {$/;"	f	class:PL
+PL	src/construction.h	/^class PL : public construction {$/;"	c
+PL_W	src/construction.h	/^	PL_W(WGraph &wgraph, Ordering &orders) {$/;"	f	class:PL_W
+PL_W	src/construction.h	/^	PL_W(WGraph &wgraph, Ordering &orders, bool DIRECTED, bool PATH_QUERY) {$/;"	f	class:PL_W
+PL_W	src/construction.h	/^	PL_W(WGraph &wgraph, Ordering &orders, bool D_FLAGS) {$/;"	f	class:PL_W
+PL_W	src/construction.h	/^	PL_W(WGraph &wgraph, Ordering &orders, bool D_FLAGS, bool PATH_QUERY, bool dwpath) {$/;"	f	class:PL_W
+PL_W	src/construction.h	/^class PL_W : public construction {$/;"	c
+PLabel	src/labels.h	/^	PLabel() {$/;"	f	class:PLabel
+PLabel	src/labels.h	/^class PLabel {$/;"	c
+QueryProcessing	command/QueryProcessing.h	/^    class QueryProcessing: public Command{$/;"	c	namespace:command
+Relabel	src/coverage_ordering.h	/^	void Relabel(Graph& graph) {$/;"	f	class:COrdering
+Relabel	src/coverage_ordering.h	/^	void Relabel(WGraph& wgraph) {$/;"	f	class:COrdering
+Relabel	src/coverage_ordering_bp.h	/^	void Relabel(Graph& graph) {$/;"	f	class:COrdering_BP
+Relabel	src/coverage_ordering_bp.h	/^	void Relabel(WGraph& wgraph) {$/;"	f	class:COrdering_BP
+Relabel	src/coverage_ordering_compress.h	/^	void Relabel(Graph& graph) {$/;"	f	class:COrdering_C
+Relabel	src/coverage_ordering_compress.h	/^	void Relabel(WGraph& wgraph) {$/;"	f	class:COrdering_C
+Relabel	src/coverage_ordering_path.h	/^	void Relabel(Graph& graph) {$/;"	f	class:COrdering_P
+Relabel	src/coverage_ordering_path.h	/^	void Relabel(WGraph& wgraph) {$/;"	f	class:COrdering_P
+Relabel	src/ordering.h	/^	void Relabel(Graph& graph) {$/;"	f	class:Ordering
+Relabel	src/ordering.h	/^	void Relabel(WGraph& wgraph) {$/;"	f	class:Ordering
+ReswapLabel	src/coverage_ordering.h	/^	void ReswapLabel(Graph& graph) {$/;"	f	class:COrdering
+ReswapLabel	src/coverage_ordering_bp.h	/^	void ReswapLabel(Graph& graph) {$/;"	f	class:COrdering_BP
+ReswapLabel	src/coverage_ordering_compress.h	/^	void ReswapLabel(Graph& graph) {$/;"	f	class:COrdering_C
+ReswapLabel	src/coverage_ordering_path.h	/^	void ReswapLabel(Graph& graph) {$/;"	f	class:COrdering_P
+ReswapLabel	src/ordering.h	/^	void ReswapLabel(Graph& graph) {$/;"	f	class:Ordering
+SECOND_LEVEL	src/construction.h	/^	bool SECOND_LEVEL = false;$/;"	m	class:CPL
+SECOND_LEVEL	src/construction.h	/^	bool SECOND_LEVEL = false;$/;"	m	class:CPL_W
+SECOND_LEVEL	src/coverage_ordering_compress.h	/^		bool SECOND_LEVEL = false;$/;"	m	class:Coverage_Ordering_Compress
+SECOND_LEVEL	src/ordering.h	/^	bool SECOND_LEVEL;$/;"	m	class:Betweenness_Ordering
+SP_Constants	src/paras.h	/^namespace SP_Constants {$/;"	n
+TD_BP_UNDIRECTED	src/construction.h	/^	void TD_BP_UNDIRECTED(Graph& graph, Ordering &orderes, int kNumBitParallelRoots, bool directed = false, bool bp = true) {$/;"	f	class:PL
+TIME_UTIL_H	src/time_util.h	34;"	d
+TP_path	src/construction.h	/^	void TP_path(Graph &graph, Ordering &orders) {$/;"	f	class:PL
+TP_path_d	src/construction.h	/^	void TP_path_d(Graph &graph, Ordering &orders) {$/;"	f	class:PL
+WEIGHTED_FLAG	src/coverage_ordering.h	54;"	d
+WEIGHTED_FLAG	src/coverage_ordering_bp.h	53;"	d
+WEIGHTED_FLAG	src/coverage_ordering_compress.h	53;"	d
+WEIGHTED_FLAG	src/coverage_ordering_path.h	53;"	d
+WEIGHTED_FLAG	src/ordering.h	54;"	d
+WEIGHTED_FLAG	src/paras.h	/^	bool WEIGHTED_FLAG = false;$/;"	m	namespace:SP_Constants
+WGraph	src/graph.h	/^	WGraph() {$/;"	f	class:WGraph
+WGraph	src/graph.h	/^class WGraph : public Graph {$/;"	c
+_COMMAND_CONSTRUCTION_PARADIGMS	command/ConstructionParadigms.h	2;"	d
+_COMMAND_H	command.h	3;"	d
+_COMMAND_INDEXING_PROCESSING	command/IndexProcessing.h	2;"	d
+_COMMAND_QUERY_PROCESSING	command/QueryProcessing.h	2;"	d
+adding_time	src/ordering.h	/^	double adding_time;$/;"	m	class:BP_Betweenness_Ordering
+adding_time	src/ordering.h	/^	double adding_time;$/;"	m	class:Betweenness_Ordering
+adj	src/graph.h	/^	vector<vector<CH_Edge> > adj;$/;"	m	class:CHGraph
+adj	src/graph.h	/^	vector<vector<NodeID> > adj; \/\/ Adjacent Lists.$/;"	m	class:Graph
+adj_weight	src/graph.h	/^	vector< vector<EdgeWeight> > adj_weight; \/\/ Weights of adjacent lists;$/;"	m	class:WGraph
+alive_resources	src/ordering.h	/^	long long alive_resources;$/;"	m	class:BP_Betweenness_Ordering
+alive_resources	src/ordering.h	/^	long long alive_resources;$/;"	m	class:Betweenness_Ordering
+anchor_p	src/labels.h	/^	NodeID* anchor_p;$/;"	m	class:CLabel
+append	src/labels.h	/^	void append(NodeID v, NodeID root, EdgeWeight distance) {$/;"	f	class:Label
+append	src/labels.h	/^	void append(NodeID v, NodeID root, EdgeWeight distance) {$/;"	f	class:PLabel
+append	src/labels.h	/^	void append(NodeID v, NodeID root, EdgeWeight distance, bool forward) { \/\/ forward(backward) search from root to vertex v.$/;"	f	class:DLabel
+avg_size	src/labels.h	/^	double avg_size() {$/;"	f	class:BPLabel
+avg_size	src/labels.h	/^	double avg_size() {$/;"	f	class:DBPLabel
+avg_size	src/labels.h	/^	double avg_size() {$/;"	f	class:DLabel
+avg_size	src/labels.h	/^	double avg_size() {$/;"	f	class:DPLabel
+avg_size	src/labels.h	/^	double avg_size() {$/;"	f	class:Label
+avg_size	src/labels.h	/^	double avg_size() {$/;"	f	class:PLabel
+b_two_index_p	src/labels.h	/^	two_index_t_p* b_two_index_p;$/;"	m	class:DLabel
+backward_BFS	src/graph_search.h	/^	void backward_BFS(vector<EdgeWeight> &distances, vector<NodeID> &que, NodeID& que_h, vector<bool> &vis, NodeID &source, Graph &graph) {$/;"	f	namespace:graph_search
+backward_Dijkstra	src/graph_search.h	/^	void backward_Dijkstra(vector<EdgeWeight> &distances, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<bool>& vis, NodeID& source, WGraph& wgraph) {$/;"	f	namespace:graph_search
+benchmark	src/heap.h	/^namespace benchmark {$/;"	n
+bfs_one_hop_walk	src/coverage_ordering.h	/^	NodeID bfs_one_hop_walk(NodeID source, tree& parent_tree, vector<NodeID>& coverage,  vector<NodeID>& root_hop, vector<NodeID>& last_hop, vector<NodeID>& que, vector<NodeID>& que2,vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, Graph& graph) { $/;"	f	class:Coverage_Ordering
+bfs_walk	src/coverage_ordering.h	/^	NodeID bfs_walk(NodeID source, tree& parent_tree, vector<NodeID>& coverage,  vector<NodeID>& root_hop, vector<NodeID>& last_hop, vector<NodeID>& que, vector<NodeID>& que2,vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, Graph& graph) { $/;"	f	class:Coverage_Ordering
+bindex_	src/labels.h	/^	vector<index_t> bindex_; \/\/ Backward labels.$/;"	m	class:DLabel
+bindex_	src/labels.h	/^	vector<index_t_path> bindex_; \/\/ Backward labels.$/;"	m	class:DPLabel
+bindex_bp	src/labels.h	/^	index_t_bp<kNumBitParallelRoots>* bindex_bp;$/;"	m	class:DBPLabel
+bindex_p	src/labels.h	/^	index_t_p* bindex_p;$/;"	m	class:DLabel
+bindex_p	src/labels.h	/^	index_t_path_p* bindex_p;$/;"	m	class:DPLabel
+bounded_resources	src/ordering.h	/^	long long bounded_resources;$/;"	m	class:BP_Betweenness_Ordering
+bounded_resources	src/ordering.h	/^	long long bounded_resources;$/;"	m	class:Betweenness_Ordering
+bplabels	src/construction.h	/^	BPLabel<kNumBitParallelRoots> bplabels;$/;"	m	class:BPL
+bplabels	src/coverage_ordering_bp.h	/^		BPLabel<kNumBitParallelRoots> bplabels;$/;"	m	class:Coverage_Ordering_BP
+bplabels	src/ordering.h	/^	BPLabel<kNumBitParallelRoots> bplabels;$/;"	m	class:BP_Betweenness_Ordering
+bpspt_d	src/labels.h	/^	EdgeWeight bpspt_d[kNumBitParallelRoots];$/;"	m	struct:index_t_bp
+bpspt_s	src/labels.h	/^	uint64_t bpspt_s[kNumBitParallelRoots][2];$/;"	m	struct:index_t_bp
+build_large_tree_bfs	src/ordering.h	/^	int build_large_tree_bfs(NodeID source, vector<int>& ltree, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, \/*vector<vector<NodeID> >& adj*\/ Graph& graph, int accum_new_arcs, int labeled_arcs_bound) {$/;"	f	class:Betweenness_Ordering
+build_large_tree_bfs	src/ordering.h	/^	int build_large_tree_bfs(NodeID source, vector<int>& ltree, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, \/*vector<vector<NodeID> >& adj*\/ Graph& graph, int accum_new_arcs, int labeled_arcs_bound, NodeID ranking) {$/;"	f	class:BP_Betweenness_Ordering
+build_large_tree_dij	src/ordering.h	/^	int build_large_tree_dij(NodeID source, large_tree& ltree, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, WGraph& wgraph, int accum_new_arcs, int labeled_arcs_bound) {$/;"	f	class:Betweenness_Ordering
+build_shortcuts_bfs	src/construction.h	/^	int build_shortcuts_bfs(NodeID source, vector<vector<CHGraph::CH_Edge> >& adj, vector<bool>& vis, vector<NodeID>& max_parents, vector<bool>& isNeighbor, vector<vector<CHGraph::CH_Edge> >& shortcuts, vector<NodeID>& que) {$/;"	f	class:Bottomup
+build_shortcuts_dij	src/construction.h	/^	int build_shortcuts_dij(NodeID source, vector<vector<CHGraph::CH_Edge> >& adj, vector<bool>& vis, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, unordered_set<NodeID>& visited_set, vector<EdgeWeight>& distances, vector<NodeID>& max_parents, vector<bool>& isNeighbor, vector<bool>& waitForPop, vector<vector<CHGraph::CH_Edge> >& shortcuts) {$/;"	f	class:Bottomup
+build_small_tree_bfs	src/ordering.h	/^	int build_small_tree_bfs(NodeID source, small_tree& stree, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, \/*vector<vector<NodeID> >& adj*\/ Graph& graph, int accum_new_arcs, int labeled_arcs_bound) {$/;"	f	class:Betweenness_Ordering
+build_small_tree_bfs	src/ordering.h	/^	int build_small_tree_bfs(NodeID source, small_tree& stree, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, \/*vector<vector<NodeID> >& adj*\/ Graph& graph, int accum_new_arcs, int labeled_arcs_bound, NodeID ranking) {$/;"	f	class:BP_Betweenness_Ordering
+build_small_tree_dij	src/ordering.h	/^	int build_small_tree_dij(NodeID source, small_tree& stree, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, WGraph& wgraph, int accum_new_arcs, int labeled_arcs_bound) {$/;"	f	class:Betweenness_Ordering
+build_tmp_tree	src/coverage_ordering.h	/^	int build_tmp_tree(NodeID source, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& descendants, vector<NodeID>& root_hop, vector<NodeID>& last_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, Graph& graph) { $/;"	f	class:Coverage_Ordering
+calcover	src/coverage_ordering.h	/^	void calcover(vector<NodeID>& descendants, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& root_hop){$/;"	f	class:Coverage_Ordering
+calcover	src/coverage_ordering.h	/^	void calcover(vector<NodeID>& descendants, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& root_hop, vector<NodeID>& last_alive, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering
+calcover	src/coverage_ordering_bp.h	/^	void calcover(vector<NodeID>& descendants, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& root_hop){$/;"	f	class:Coverage_Ordering_BP
+calcover	src/coverage_ordering_bp.h	/^	void calcover(vector<NodeID>& descendants, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& root_hop, vector<NodeID>& last_alive, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering_BP
+calcover	src/coverage_ordering_compress.h	/^	void calcover(vector<NodeID>& descendants, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& root_hop){$/;"	f	class:Coverage_Ordering_Compress
+calcover	src/coverage_ordering_compress.h	/^	void calcover(vector<NodeID>& descendants, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& root_hop, vector<NodeID>& last_alive, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering_Compress
+calcover	src/coverage_ordering_path.h	/^	void calcover(vector<NodeID>& descendants, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& root_hop){$/;"	f	class:Coverage_Ordering_Path
+calcover	src/coverage_ordering_path.h	/^	void calcover(vector<NodeID>& descendants, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& root_hop, vector<NodeID>& last_alive, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering_Path
+calcover_secondtree	src/coverage_ordering.h	/^	void calcover_secondtree(vector<NodeID>& descendants, tree& parent_tree, tree& first_parent_tree,vector<NodeID>& coverage, vector<NodeID>& root_hop, vector<NodeID>& last_alive, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering
+calupwardFanout	src/coverage_ordering.h	/^	NodeID calupwardFanout(vector<NodeID>& descendants, vector<NodeID>& upwardcoverage, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop, Graph& graph){$/;"	f	class:Coverage_Ordering
+calupwardFanout	src/coverage_ordering_bp.h	/^	NodeID calupwardFanout(vector<NodeID>& descendants, vector<NodeID>& upwardcoverage, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop, Graph& graph){$/;"	f	class:Coverage_Ordering_BP
+calupwardFanout	src/coverage_ordering_compress.h	/^	NodeID calupwardFanout(vector<NodeID>& descendants, vector<NodeID>& upwardcoverage, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop, Graph& graph){$/;"	f	class:Coverage_Ordering_Compress
+calupwardFanout	src/coverage_ordering_path.h	/^	NodeID calupwardFanout(vector<NodeID>& descendants, vector<NodeID>& upwardcoverage, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop, Graph& graph){$/;"	f	class:Coverage_Ordering_Path
+calupwardTree	src/coverage_ordering.h	/^	NodeID calupwardTree(NodeID v, tree& parent_tree, vector<NodeID>& root_hop, Graph& graph){$/;"	f	class:Coverage_Ordering
+calupwardTree	src/coverage_ordering_bp.h	/^	NodeID calupwardTree(NodeID v, tree& parent_tree, vector<NodeID>& root_hop, Graph& graph){$/;"	f	class:Coverage_Ordering_BP
+calupwardTree	src/coverage_ordering_compress.h	/^	NodeID calupwardTree(NodeID v, tree& parent_tree, vector<NodeID>& root_hop, Graph& graph){$/;"	f	class:Coverage_Ordering_Compress
+calupwardTree	src/coverage_ordering_path.h	/^	NodeID calupwardTree(NodeID v, tree& parent_tree, vector<NodeID>& root_hop, Graph& graph){$/;"	f	class:Coverage_Ordering_Path
+candidate_gen	src/coverage_ordering.h	/^	void candidate_gen(vector<NodeID>& candidate,vector<NodeID>& inv, vector<bool>& usd){$/;"	f	class:Coverage_Ordering
+candidate_gen	src/coverage_ordering_bp.h	/^	void candidate_gen(vector<NodeID>& candidate,vector<NodeID>& inv, vector<bool>& usd){$/;"	f	class:Coverage_Ordering_BP
+candidate_gen	src/coverage_ordering_compress.h	/^	void candidate_gen(vector<NodeID>& candidate,vector<NodeID>& inv, vector<bool>& usd){$/;"	f	class:Coverage_Ordering_Compress
+candidate_gen	src/coverage_ordering_path.h	/^	void candidate_gen(vector<NodeID>& candidate,vector<NodeID>& inv, vector<bool>& usd){$/;"	f	class:Coverage_Ordering_Path
+children_size	src/construction.h	/^	long children_size;$/;"	m	class:CPL
+children_size	src/construction.h	/^	long children_size;$/;"	m	class:CPL_W
+children_size	src/coverage_ordering_compress.h	/^		long children_size;$/;"	m	class:Coverage_Ordering_Compress
+children_size	src/ordering.h	/^	long children_size;$/;"	m	class:Betweenness_Ordering
+clabels	src/construction.h	/^	CLabel clabels;$/;"	m	class:construction
+clabels	src/coverage_ordering_compress.h	/^		CLabel clabels;$/;"	m	class:Coverage_Ordering_Compress
+clabels	src/ordering.h	/^	CLabel clabels;$/;"	m	class:Betweenness_Ordering
+clear	src/heap.h	/^	inline void clear() {$/;"	f	class:benchmark::heap
+clear	src/heap.h	/^	inline void clear(node_t v) {$/;"	f	class:benchmark::heap
+clear	src/ordering.h	/^	void clear() {$/;"	f	class:BP_Betweenness_Ordering
+clear	src/ordering.h	/^	void clear() {$/;"	f	class:Betweenness_Ordering
+clear_n	src/heap.h	/^	inline void clear_n() {$/;"	f	class:benchmark::heap
+clear_tmp	src/coverage_ordering.h	/^	void clear_tmp(vector<NodeID>& descendants, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering
+clear_tmp	src/coverage_ordering_bp.h	/^	void clear_tmp(vector<NodeID>& descendants, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering_BP
+clear_tmp	src/coverage_ordering_compress.h	/^	void clear_tmp(vector<NodeID>& descendants, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering_Compress
+clear_tmp	src/coverage_ordering_path.h	/^	void clear_tmp(vector<NodeID>& descendants, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering_Path
+clear_upwardtmp	src/coverage_ordering.h	/^	void clear_upwardtmp(vector<NodeID>& descendants, vector<NodeID>& upwardcoverage){$/;"	f	class:Coverage_Ordering
+clear_upwardtmp	src/coverage_ordering_bp.h	/^	void clear_upwardtmp(vector<NodeID>& descendants, vector<NodeID>& upwardcoverage){$/;"	f	class:Coverage_Ordering_BP
+clear_upwardtmp	src/coverage_ordering_compress.h	/^	void clear_upwardtmp(vector<NodeID>& descendants, vector<NodeID>& upwardcoverage){$/;"	f	class:Coverage_Ordering_Compress
+clear_upwardtmp	src/coverage_ordering_path.h	/^	void clear_upwardtmp(vector<NodeID>& descendants, vector<NodeID>& upwardcoverage){$/;"	f	class:Coverage_Ordering_Path
+cnt16_2max_queue	src/ordering.h	/^	void cnt16_2max_queue(vector<cover_value_type>& picked_value, vector<cover_value_type>& sum, vector<bool>& has_picked, \/*unordered_set<NodeID>& affected_v*\/ google::dense_hash_set<NodeID>& affected_v, vector<bool>& affected_list, const vector<vector<cover_value_type> >& cnt16, bool& switch_small, bool& switch_set, benchmark::heap<2, cover_value_type, NodeID>& value_heap) {$/;"	f	class:BP_Betweenness_Ordering
+cnt16_2max_queue	src/ordering.h	/^	void cnt16_2max_queue(vector<cover_value_type>& picked_value, vector<cover_value_type>& sum, vector<bool>& has_picked, \/*unordered_set<NodeID>& affected_v*\/ google::dense_hash_set<NodeID>& affected_v, vector<bool>& affected_list, const vector<vector<cover_value_type> >& cnt16, bool& switch_small, bool& switch_set, benchmark::heap<2, cover_value_type, NodeID>& value_heap) {$/;"	f	class:Betweenness_Ordering
+command	command/ConstructionParadigms.h	/^namespace command{$/;"	n
+command	command/IndexProcessing.h	/^namespace command{$/;"	n
+command	command/QueryProcessing.h	/^namespace command{$/;"	n
+construction	src/construction.h	/^class construction {$/;"	c
+contains	src/heap.h	/^	inline bool contains(const node_t element) const {$/;"	f	class:benchmark::heap
+contracted	src/construction.h	/^	vector<bool> contracted;$/;"	m	class:Bottomup
+convert_to_fewerbit	src/labels.h	/^	void convert_to_fewerbit(){$/;"	f	class:DLabel
+convert_to_fewerbit	src/labels.h	/^	void convert_to_fewerbit(){$/;"	f	class:Label
+convertlist	src/construction.h	/^	NodeID convertlist(NodeID& token_id, vector<token_t>& tokens_list, vector<vector<NodeID> >& tmp_tokens, vector<vector<EdgeWeight> >& tmp_tokens_distances, unordered_map<pair<NodeID, vector<NodeID> >, NodeID, nodeid_vector_hasher>& token_map, pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >&	tmp_idx_token_parents_v, bool REVERSE){$/;"	f	class:CPL
+convertlist	src/construction.h	/^	NodeID convertlist(NodeID& token_id, vector<token_t>& tokens_list, vector<vector<NodeID> >& tmp_tokens, vector<vector<EdgeWeight> >& tmp_tokens_distances, unordered_map<pair<NodeID, vector<NodeID> >, NodeID, nodeid_vector_hasher>& token_map, pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >&	tmp_idx_token_parents_v, bool REVERSE){$/;"	f	class:CPL_W
+convertlist	src/coverage_ordering_compress.h	/^	NodeID convertlist(NodeID& token_id, vector<token_t>& tokens_list, vector<vector<NodeID> >& tmp_tokens, vector<vector<EdgeWeight> >& tmp_tokens_distances, unordered_map<pair<NodeID, vector<NodeID> >, NodeID, nodeid_vector_hasher>& token_map, pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >&	tmp_idx_token_parents_v, bool REVERSE){$/;"	f	class:Coverage_Ordering_Compress
+convertlist	src/coverage_ordering_compress.h	/^	NodeID convertlist(NodeID& token_id, vector<token_t>& tokens_list, vector<vector<NodeID> >& tmp_tokens, vector<vector<EdgeWeight> >& tmp_tokens_distances, unordered_map<pair<NodeID, vector<NodeID> >, NodeID, nodeid_vector_hasher>& token_map, pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >& tmp_idx_parents_v, pair<vector<NodeID>, vector<NodeID> >&	tmp_idx_token_parents_v){$/;"	f	class:Coverage_Ordering_Compress
+convertlist	src/ordering.h	/^	NodeID convertlist(NodeID& token_id, vector<token_t>& tokens_list, vector<vector<NodeID> >& tmp_tokens, vector<vector<EdgeWeight> >& tmp_tokens_distances, unordered_map<pair<NodeID, vector<NodeID> >, NodeID, nodeid_vector_hasher>& token_map, pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >&	tmp_idx_token_parents_v, bool REVERSE){$/;"	f	class:Betweenness_Ordering
+convertsupertokens	src/construction.h	/^	void convertsupertokens(vector<token_t>& tokens_list, vector<token_t>& supertokens){$/;"	f	class:CPL
+convertsupertokens	src/construction.h	/^	void convertsupertokens(vector<token_t>& tokens_list, vector<token_t>& supertokens){$/;"	f	class:CPL_W
+convertsupertokens	src/coverage_ordering_compress.h	/^	void convertsupertokens(token_t* tokens_list, token_t* supertokens, NodeID numOfTokens){$/;"	f	class:Coverage_Ordering_Compress
+convertsupertokens	src/coverage_ordering_compress.h	/^	void convertsupertokens(vector<token_t>& tokens_list, vector<token_t>& supertokens){$/;"	f	class:Coverage_Ordering_Compress
+convertsupertokens	src/ordering.h	/^	void convertsupertokens(vector<token_t>& tokens_list, vector<token_t>& supertokens){$/;"	f	class:Betweenness_Ordering
+converttokens	src/construction.h	/^	void converttokens(vector<pair<vector<NodeID>, vector<EdgeWeight> > > & tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_token_parents, bool REVERSE){$/;"	f	class:CPL
+converttokens	src/construction.h	/^	void converttokens(vector<pair<vector<NodeID>, vector<EdgeWeight> > > & tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_token_parents, bool REVERSE){$/;"	f	class:CPL_W
+converttokens	src/coverage_ordering_compress.h	/^	void converttokens(vector<pair<vector<NodeID>, vector<EdgeWeight> > > & tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_parents, vector<pair<vector<NodeID>, vector<NodeID> > >&	tmp_idx_token_parents){$/;"	f	class:Coverage_Ordering_Compress
+converttokens	src/coverage_ordering_compress.h	/^	void converttokens(vector<pair<vector<NodeID>, vector<EdgeWeight> > > & tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_token_parents, bool REVERSE){$/;"	f	class:Coverage_Ordering_Compress
+converttokens	src/coverage_ordering_compress.h	/^	void converttokens(vector<pair<vector<NodeID>, vector<EdgeWeight> > > & tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_token_parents, vector<pair<vector<NodeID>, vector<EdgeWeight> > > & r_tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& r_tmp_idx_token_parents){$/;"	f	class:Coverage_Ordering_Compress
+converttokens	src/ordering.h	/^	void converttokens(vector<pair<vector<NodeID>, vector<EdgeWeight> > > & tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_token_parents, bool REVERSE){$/;"	f	class:Betweenness_Ordering
+cover_value_type	src/coverage_ordering.h	57;"	d
+cover_value_type	src/coverage_ordering_bp.h	56;"	d
+cover_value_type	src/coverage_ordering_compress.h	56;"	d
+cover_value_type	src/coverage_ordering_path.h	56;"	d
+cover_value_type	src/ordering.h	57;"	d
+dbplabels	src/construction.h	/^	DBPLabel<kNumBitParallelRoots> dbplabels;$/;"	m	class:BPL
+dbplabels	src/coverage_ordering_bp.h	/^		DBPLabel<kNumBitParallelRoots> dbplabels;$/;"	m	class:Coverage_Ordering_BP
+dbplabels	src/ordering.h	/^	DBPLabel<kNumBitParallelRoots> dbplabels;$/;"	m	class:BP_Betweenness_Ordering
+directed_unweighted_sigpath	src/coverage_ordering.h	/^	void directed_unweighted_sigpath(Graph& graph){$/;"	f	class:Coverage_Ordering
+directed_unweighted_sigpath	src/coverage_ordering_bp.h	/^	void directed_unweighted_sigpath(Graph& graph){$/;"	f	class:Coverage_Ordering_BP
+directed_unweighted_sigpath	src/coverage_ordering_compress.h	/^	void directed_unweighted_sigpath(Graph& graph){$/;"	f	class:Coverage_Ordering_Compress
+directed_unweighted_sigpath	src/coverage_ordering_path.h	/^	void directed_unweighted_sigpath(Graph& graph){$/;"	f	class:Coverage_Ordering_Path
+directed_weighted_sigpath	src/coverage_ordering.h	/^	void directed_weighted_sigpath(WGraph& wgraph){$/;"	f	class:Coverage_Ordering
+directed_weighted_sigpath	src/coverage_ordering_compress.h	/^	void directed_weighted_sigpath(WGraph& wgraph){$/;"	f	class:Coverage_Ordering_Compress
+directed_weighted_sigpath	src/coverage_ordering_path.h	/^	void directed_weighted_sigpath(WGraph& wgraph){$/;"	f	class:Coverage_Ordering_Path
+distance	src/labels.h	/^	EdgeWeight distance;$/;"	m	struct:query_info
+dlabels	src/construction.h	/^	DLabel dlabels;$/;"	m	class:construction
+dlabels	src/coverage_ordering.h	/^		DLabel dlabels;$/;"	m	class:Coverage_Ordering
+dlabels	src/ordering.h	/^	DLabel dlabels;$/;"	m	class:BP_Betweenness_Ordering
+dlabels	src/ordering.h	/^	DLabel dlabels;$/;"	m	class:Betweenness_Ordering
+dplabels	src/construction.h	/^	DPLabel dplabels;$/;"	m	class:construction
+dplabels	src/coverage_ordering_path.h	/^		DPLabel dplabels;$/;"	m	class:Coverage_Ordering_Path
+dplabels	src/ordering.h	/^	DPLabel dplabels;$/;"	m	class:BP_Betweenness_Ordering
+dplabels	src/ordering.h	/^	DPLabel dplabels;$/;"	m	class:Betweenness_Ordering
+edges	src/graph.h	/^	vector<NodeEdgeWeightPair> edges;$/;"	m	class:WGraph
+edges	src/graph.h	/^	vector<NodeID> edges;$/;"	m	class:Graph
+element	src/heap.h	/^		node_t element;$/;"	m	struct:benchmark::heap::element_t
+element_t	src/heap.h	/^		element_t() : key(0), element(0) {}$/;"	f	struct:benchmark::heap::element_t
+element_t	src/heap.h	/^		element_t(const key_t k, const node_t e) : key(k), element(e) {}$/;"	f	struct:benchmark::heap::element_t
+element_t	src/heap.h	/^	struct element_t {$/;"	s	class:benchmark::heap
+elements	src/heap.h	/^	vector<element_t> elements;$/;"	m	class:benchmark::heap
+empty	src/heap.h	/^	inline bool empty() const {$/;"	f	class:benchmark::heap
+empty_small_tree	src/ordering.h	/^	small_tree empty_small_tree = small_tree();$/;"	m	class:BP_Betweenness_Ordering
+empty_small_tree	src/ordering.h	/^	small_tree empty_small_tree = small_tree();$/;"	m	class:Betweenness_Ordering
+enlarge_tree	src/ordering.h	/^	void enlarge_tree(int tid, NodeID root, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:BP_Betweenness_Ordering
+enlarge_tree	src/ordering.h	/^	void enlarge_tree(int tid, NodeID root, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:Betweenness_Ordering
+exit_with_help	command/ConstructionParadigms.h	/^        void exit_with_help(){$/;"	f	class:command::ConstructionParadigms
+exit_with_help	command/IndexProcessing.h	/^        void exit_with_help(){$/;"	f	class:command::IndexProcessing
+exit_with_help	command/QueryProcessing.h	/^        void exit_with_help(){$/;"	f	class:command::QueryProcessing
+exit_with_help	main.cpp	/^void exit_with_help(){$/;"	f
+extract_min	src/heap.h	/^	inline void extract_min(node_t &element, key_t &key) {$/;"	f	class:benchmark::heap
+findComputeAncestor	src/coverage_ordering.h	/^	NodeID findComputeAncestor(NodeID v, vector<NodeID>& coverage, tree& parent_tree, vector<NodeID>& root_hop){$/;"	f	class:Coverage_Ordering
+findRevSigPath	src/coverage_ordering.h	/^	vector<NodeID> findRevSigPath(NodeID source, vector<NodeID>& coverage, vector<NodeID>& r_coverage, tree& parent_tree,tree& r_parent_tree, vector<bool>& usd, Graph& graph){$/;"	f	class:Coverage_Ordering
+findRevSigPath	src/coverage_ordering.h	/^	vector<NodeID> findRevSigPath(NodeID source, vector<NodeID>& coverage, vector<NodeID>& r_coverage, tree& parent_tree,tree& r_parent_tree, vector<bool>& usd, WGraph& wgraph, NodeID& maxdegree, bool& reverse_flag){$/;"	f	class:Coverage_Ordering
+findRevSigPath	src/coverage_ordering_bp.h	/^	vector<NodeID> findRevSigPath(NodeID source, vector<NodeID>& coverage, vector<NodeID>& r_coverage, tree& parent_tree,tree& r_parent_tree, vector<bool>& usd, Graph& graph){$/;"	f	class:Coverage_Ordering_BP
+findRevSigPath	src/coverage_ordering_compress.h	/^	vector<NodeID> findRevSigPath(NodeID source, vector<NodeID>& coverage, vector<NodeID>& r_coverage, tree& parent_tree,tree& r_parent_tree, vector<bool>& usd, Graph& graph){$/;"	f	class:Coverage_Ordering_Compress
+findRevSigPath	src/coverage_ordering_compress.h	/^	vector<NodeID> findRevSigPath(NodeID source, vector<NodeID>& coverage, vector<NodeID>& r_coverage, tree& parent_tree,tree& r_parent_tree, vector<bool>& usd, WGraph& wgraph, NodeID& maxdegree, bool& reverse_flag){$/;"	f	class:Coverage_Ordering_Compress
+findRevSigPath	src/coverage_ordering_path.h	/^	vector<NodeID> findRevSigPath(NodeID source, vector<NodeID>& coverage, vector<NodeID>& r_coverage, tree& parent_tree,tree& r_parent_tree, vector<bool>& usd, Graph& graph){$/;"	f	class:Coverage_Ordering_Path
+findRevSigPath	src/coverage_ordering_path.h	/^	vector<NodeID> findRevSigPath(NodeID source, vector<NodeID>& coverage, vector<NodeID>& r_coverage, tree& parent_tree,tree& r_parent_tree, vector<bool>& usd, WGraph& wgraph, NodeID& maxdegree, bool& reverse_flag){$/;"	f	class:Coverage_Ordering_Path
+findSigPath	src/coverage_ordering.h	/^	vector<NodeID> findSigPath(NodeID source, vector<NodeID>& coverage, tree& parent_tree, vector<bool>& usd, vector<NodeID>& upwardsPow, Graph& graph){$/;"	f	class:Coverage_Ordering
+findSigPath	src/coverage_ordering.h	/^	vector<NodeID> findSigPath(NodeID source, vector<NodeID>& coverage, tree& parent_tree, vector<bool>& usd,vector<NodeID>& upwardsPow, WGraph& wgraph, NodeID& maxdegree){$/;"	f	class:Coverage_Ordering
+findSigPath	src/coverage_ordering_bp.h	/^	vector<NodeID> findSigPath(NodeID source, vector<NodeID>& coverage, tree& parent_tree, vector<bool>& usd, vector<NodeID>& upwardsPow, Graph& graph){$/;"	f	class:Coverage_Ordering_BP
+findSigPath	src/coverage_ordering_compress.h	/^	vector<NodeID> findSigPath(NodeID source, vector<NodeID>& coverage, tree& parent_tree, vector<bool>& usd, vector<NodeID>& upwardsPow, Graph& graph){$/;"	f	class:Coverage_Ordering_Compress
+findSigPath	src/coverage_ordering_compress.h	/^	vector<NodeID> findSigPath(NodeID source, vector<NodeID>& coverage, tree& parent_tree, vector<bool>& usd,vector<NodeID>& upwardsPow, WGraph& wgraph, NodeID& maxdegree){$/;"	f	class:Coverage_Ordering_Compress
+findSigPath	src/coverage_ordering_path.h	/^	vector<NodeID> findSigPath(NodeID source, vector<NodeID>& coverage, tree& parent_tree, vector<bool>& usd, vector<NodeID>& upwardsPow, Graph& graph){$/;"	f	class:Coverage_Ordering_Path
+findSigPath	src/coverage_ordering_path.h	/^	vector<NodeID> findSigPath(NodeID source, vector<NodeID>& coverage, tree& parent_tree, vector<bool>& usd,vector<NodeID>& upwardsPow, WGraph& wgraph, NodeID& maxdegree){$/;"	f	class:Coverage_Ordering_Path
+get_ascendants	src/ordering.h	/^	void get_ascendants(int tree_id, NodeID picked_v, vector<NodeID>& ascendants, vector<NodeID>& que, vector<bool>& vis, Graph& graph, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:BP_Betweenness_Ordering
+get_ascendants	src/ordering.h	/^	void get_ascendants(int tree_id, NodeID picked_v, vector<NodeID>& ascendants, vector<NodeID>& que, vector<bool>& vis, Graph& graph, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:Betweenness_Ordering
+get_ascendants	src/ordering.h	/^	void get_ascendants(int tree_id, NodeID picked_v, vector<NodeID>& ascendants, vector<NodeID>& que, vector<bool>& vis, WGraph& wgraph, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:Betweenness_Ordering
+get_ascendants	src/ordering.h	/^	void get_ascendants(int tree_id, NodeID picked_v, vector<NodeID>& ascendants, vector<NodeID>& que, vector<bool>& vis, vector<vector<NodeID> >& adj, vector<vector<NodeID> >& r_adj) {$/;"	f	class:BP_Betweenness_Ordering
+get_ascendants	src/ordering.h	/^	void get_ascendants(int tree_id, NodeID picked_v, vector<NodeID>& ascendants, vector<NodeID>& que, vector<bool>& vis, vector<vector<NodeID> >& adj, vector<vector<NodeID> >& r_adj) {$/;"	f	class:Betweenness_Ordering
+get_ascendants	src/ordering.h	/^	void get_ascendants(int tree_id, NodeID picked_v, vector<NodeID>& ascendants, vector<NodeID>& que, vector<bool>& vis, vector<vector<NodeID> >& adj, vector<vector<NodeID> >& r_adj, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:BP_Betweenness_Ordering
+get_ascendants	src/ordering.h	/^	void get_ascendants(int tree_id, NodeID picked_v, vector<NodeID>& ascendants, vector<NodeID>& que, vector<bool>& vis, vector<vector<NodeID> >& adj, vector<vector<NodeID> >& r_adj, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:Betweenness_Ordering
+get_descendants	src/ordering.h	/^	void get_descendants(int tree_id, NodeID picked_v, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, Graph& graph, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:BP_Betweenness_Ordering
+get_descendants	src/ordering.h	/^	void get_descendants(int tree_id, NodeID picked_v, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, Graph& graph, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:Betweenness_Ordering
+get_descendants	src/ordering.h	/^	void get_descendants(int tree_id, NodeID picked_v, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, WGraph& wgraph, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:BP_Betweenness_Ordering
+get_descendants	src/ordering.h	/^	void get_descendants(int tree_id, NodeID picked_v, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, WGraph& wgraph, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:Betweenness_Ordering
+get_descendants	src/ordering.h	/^	void get_descendants(int tree_id, NodeID picked_v, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, vector<vector<NodeID> >& adj, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:BP_Betweenness_Ordering
+get_descendants	src/ordering.h	/^	void get_descendants(int tree_id, NodeID picked_v, vector<NodeID>& descendants, vector<NodeID>& descendants_parents, vector<NodeID>& que, vector<bool>& vis, vector<vector<NodeID> >& adj, const bool isLarge, small_tree& stree_tid, large_tree& ltree_tid) {$/;"	f	class:Betweenness_Ordering
+get_descendants	src/ordering.h	/^	void get_descendants(int tree_id, NodeID picked_v, vector<NodeID>& descendants, vector<NodeID>& que, vector<bool>& vis, vector<vector<NodeID> >& adj) {$/;"	f	class:BP_Betweenness_Ordering
+get_descendants	src/ordering.h	/^	void get_descendants(int tree_id, NodeID picked_v, vector<NodeID>& descendants, vector<NodeID>& que, vector<bool>& vis, vector<vector<NodeID> >& adj) {$/;"	f	class:Betweenness_Ordering
+get_large_parent	src/ordering.h	/^	int get_large_parent(NodeID v, large_tree& ltree) {$/;"	f	class:BP_Betweenness_Ordering
+get_large_parent	src/ordering.h	/^	int get_large_parent(NodeID v, large_tree& ltree) {$/;"	f	class:Betweenness_Ordering
+get_small_parent	src/ordering.h	/^	int get_small_parent(NodeID v, small_tree& stree) {$/;"	f	class:BP_Betweenness_Ordering
+get_small_parent	src/ordering.h	/^	int get_small_parent(NodeID v, small_tree& stree) {$/;"	f	class:Betweenness_Ordering
+get_small_parent_time	src/ordering.h	/^	double get_small_parent_time;$/;"	m	class:BP_Betweenness_Ordering
+get_small_parent_time	src/ordering.h	/^	double get_small_parent_time;$/;"	m	class:Betweenness_Ordering
+get_small_parent_withouttest	src/ordering.h	/^	int get_small_parent_withouttest(NodeID v, small_tree& stree) {$/;"	f	class:BP_Betweenness_Ordering
+get_small_parent_withouttest	src/ordering.h	/^	int get_small_parent_withouttest(NodeID v, small_tree& stree) {$/;"	f	class:Betweenness_Ordering
+graph_search	src/graph_search.h	/^namespace graph_search {$/;"	n
+hash_combine	src/construction.h	/^	inline void hash_combine(std::size_t& seed, T const& v)$/;"	f	class:CPL
+hash_combine	src/construction.h	/^	inline void hash_combine(std::size_t& seed, T const& v)$/;"	f	class:CPL_W
+hash_combine	src/coverage_ordering_compress.h	/^inline void hash_combine(std::size_t& seed, T const& v)$/;"	f
+hash_combine	src/ordering.h	/^	inline void hash_combine(std::size_t& seed, T const& v)$/;"	f	class:Betweenness_Ordering
+heap	src/heap.h	/^	heap() {$/;"	f	class:benchmark::heap
+heap	src/heap.h	/^	heap(node_t n) : n(0), max_n(n), elements(n), position(n, NULLINDEX) {$/;"	f	class:benchmark::heap
+heap	src/heap.h	/^class heap {$/;"	c	namespace:benchmark
+index_	src/labels.h	/^	vector<index_t> index_;	$/;"	m	class:Label
+index_	src/labels.h	/^	vector<index_t_path> index_;$/;"	m	class:DPLabel
+index_	src/labels.h	/^	vector<index_t_path> index_;$/;"	m	class:PLabel
+index_bp	src/labels.h	/^	index_t_bp<kNumBitParallelRoots>* index_bp;$/;"	m	class:BPLabel
+index_bp	src/labels.h	/^	index_t_bp<kNumBitParallelRoots>* index_bp;$/;"	m	class:DBPLabel
+index_p	src/labels.h	/^	index_t_p* index_p;$/;"	m	class:Label
+index_p	src/labels.h	/^	index_t_path_p* index_p;$/;"	m	class:DPLabel
+index_p	src/labels.h	/^	index_t_path_p* index_p;$/;"	m	class:PLabel
+index_t	src/labels.h	/^struct index_t {$/;"	s
+index_t_bp	src/labels.h	/^struct index_t_bp {$/;"	s
+index_t_p	src/labels.h	/^struct index_t_p {$/;"	s
+index_t_path	src/labels.h	/^struct index_t_path {$/;"	s
+index_t_path_p	src/labels.h	/^struct index_t_path_p {$/;"	s
+init_time	src/ordering.h	/^	double init_time;$/;"	m	class:BP_Betweenness_Ordering
+init_time	src/ordering.h	/^	double init_time;$/;"	m	class:Betweenness_Ordering
+inv	src/coverage_ordering.h	/^	vector<NodeID> inv; \/\/ Fetch the original vertex id by a given ranking.$/;"	m	class:COrdering
+inv	src/coverage_ordering_bp.h	/^	vector<NodeID> inv; \/\/ Fetch the original vertex id by a given ranking.$/;"	m	class:COrdering_BP
+inv	src/coverage_ordering_compress.h	/^	vector<NodeID> inv; \/\/ Fetch the original vertex id by a given ranking.$/;"	m	class:COrdering_C
+inv	src/coverage_ordering_path.h	/^	vector<NodeID> inv; \/\/ Fetch the original vertex id by a given ranking.$/;"	m	class:COrdering_P
+inv	src/ordering.h	/^	vector<NodeID> inv; \/\/ Fetch the original vertex id by a given ranking.$/;"	m	class:Ordering
+iteration_generated	src/construction.h	/^	vector<double> iteration_generated;$/;"	m	class:Bottomup
+iteration_generated	src/construction.h	/^	vector<double> iteration_generated;$/;"	m	class:CPL
+iteration_generated	src/construction.h	/^	vector<double> iteration_generated;$/;"	m	class:CPL_W
+iteration_generated	src/construction.h	/^	vector<double> iteration_generated;$/;"	m	class:PL
+iteration_generated	src/construction.h	/^	vector<double> iteration_generated;$/;"	m	class:PL_W
+iteration_time	src/ordering.h	/^	vector<double> iteration_time;$/;"	m	class:BP_Betweenness_Ordering
+iteration_time	src/ordering.h	/^	vector<double> iteration_time;$/;"	m	class:Betweenness_Ordering
+k	src/heap.h	/^	static const node_t k = 1 << log_k;$/;"	m	class:benchmark::heap
+key	src/heap.h	/^		key_t key;$/;"	m	struct:benchmark::heap::element_t
+key_t	src/heap.h	/^	typedef k_t key_t;$/;"	t	class:benchmark::heap
+labeling	src/construction.h	/^	void labeling(CHGraph &chgraph, Ordering &orders) {$/;"	f	class:Bottomup
+labeling_directed	src/construction.h	/^	void labeling_directed(CHGraph &chgraph, Ordering &orders) {$/;"	f	class:Bottomup
+labeling_source_bfs	src/coverage_ordering.h	/^	NodeID labeling_source_bfs(NodeID source, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& descendants, vector<NodeID>& root_hop, vector<NodeID>& last_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, Graph& graph) { $/;"	f	class:Coverage_Ordering
+labeling_source_bfs	src/coverage_ordering_bp.h	/^	NodeID labeling_source_bfs(NodeID source, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& descendants, vector<NodeID>& root_hop, vector<NodeID>& last_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<EdgeWeight>& tmp_d, vector<std::pair<uint64_t, uint64_t> >& tmp_s, vector<std::pair<NodeID, NodeID> >& sibling_es, vector<std::pair<NodeID, NodeID> >& child_es, NodeID& skip_count, NodeID& bp_seed, vector<NodeID>& inv, vector<NodeID>& rank, Graph& graph) { $/;"	f	class:Coverage_Ordering_BP
+labeling_source_bfs	src/coverage_ordering_compress.h	/^	NodeID labeling_source_bfs(NodeID source, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& descendants, vector<NodeID>& root_hop, vector<NodeID>& last_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >&	tmp_idx_token_parents, Graph& graph) { $/;"	f	class:Coverage_Ordering_Compress
+labeling_source_bfs	src/coverage_ordering_path.h	/^	NodeID labeling_source_bfs(NodeID source, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& descendants, vector<NodeID>& root_hop, vector<NodeID>& last_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx,vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_parents, vector<NodeID>& parents, Graph& graph) { $/;"	f	class:Coverage_Ordering_Path
+labeling_source_bfs	src/ordering.h	/^	int labeling_source_bfs(NodeID source, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<EdgeWeight>& r_dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_token_parents, vector<pair<vector<NodeID>, vector<NodeID> > >& r_tmp_idx_token_parents, Graph& graph) {$/;"	f	class:Betweenness_Ordering
+labeling_source_bfs	src/ordering.h	/^	int labeling_source_bfs(NodeID source, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, Graph& graph) {$/;"	f	class:Betweenness_Ordering
+labeling_source_bfs	src/ordering.h	/^	int labeling_source_bfs(NodeID source, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, vector<bool>& r_usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, Graph& graph, vector<EdgeWeight>& tmp_d, vector<std::pair<uint64_t, uint64_t> >& tmp_s, vector<EdgeWeight>& r_tmp_d, vector<std::pair<uint64_t, uint64_t> >& r_tmp_s, vector<std::pair<NodeID, NodeID> >& sibling_es, vector<std::pair<NodeID, NodeID> >& child_es, vector<cover_value_type>& sum, unordered_set<NodeID>& picked_neighbors, const vector<vector<cover_value_type> >& cnt16) {$/;"	f	class:BP_Betweenness_Ordering
+labeling_source_bfs_directed	src/coverage_ordering.h	/^	NodeID labeling_source_bfs_directed(NodeID source, tree& parent_tree, tree& r_parent_tree, vector<NodeID>& coverage, vector<NodeID>& r_coverage, vector<NodeID>& descendants, vector<NodeID>& r_descendants,vector<NodeID>& root_hop, vector<NodeID>& r_root_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<EdgeWeight>& r_dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx,Graph& graph) { $/;"	f	class:Coverage_Ordering
+labeling_source_bfs_directed	src/coverage_ordering_bp.h	/^	NodeID labeling_source_bfs_directed(NodeID source, tree& parent_tree, tree& r_parent_tree, vector<NodeID>& coverage, vector<NodeID>& r_coverage, vector<NodeID>& descendants, vector<NodeID>& r_descendants,vector<NodeID>& root_hop, vector<NodeID>& r_root_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<EdgeWeight>& r_dst_r, vector<bool>& usd, vector<bool>& r_usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, vector<EdgeWeight>& tmp_d, vector<EdgeWeight>& r_tmp_d, vector<std::pair<uint64_t, uint64_t> >& tmp_s, vector<std::pair<uint64_t, uint64_t> >& r_tmp_s,vector<std::pair<NodeID, NodeID> >& sibling_es,vector<std::pair<NodeID, NodeID> >& r_sibling_es, vector<std::pair<NodeID, NodeID> >& child_es, vector<std::pair<NodeID, NodeID> >& r_child_es, NodeID& skip_count, NodeID& bp_seed, vector<NodeID>& inv, vector<NodeID>& rank, Graph& graph) { $/;"	f	class:Coverage_Ordering_BP
+labeling_source_bfs_directed	src/coverage_ordering_compress.h	/^	NodeID labeling_source_bfs_directed(NodeID source, tree& parent_tree, tree& r_parent_tree, vector<NodeID>& coverage, vector<NodeID>& r_coverage, vector<NodeID>& descendants, vector<NodeID>& r_descendants,vector<NodeID>& root_hop, vector<NodeID>& r_root_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<EdgeWeight>& r_dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >&	tmp_idx_token_parents, vector<pair<vector<NodeID>, vector<NodeID> > >&	r_tmp_idx_token_parents,Graph& graph) { $/;"	f	class:Coverage_Ordering_Compress
+labeling_source_bfs_directed	src/coverage_ordering_path.h	/^	NodeID labeling_source_bfs_directed(NodeID source, tree& parent_tree, tree& r_parent_tree, vector<NodeID>& coverage, vector<NodeID>& r_coverage, vector<NodeID>& descendants, vector<NodeID>& r_descendants,vector<NodeID>& root_hop, vector<NodeID>& r_root_hop, vector<NodeID>& que, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<EdgeWeight>& r_dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_parents, vector<NodeID>& parents,vector<pair<vector<NodeID>, vector<NodeID> > >& r_tmp_idx_parents, vector<NodeID>& r_parents, Graph& graph) { $/;"	f	class:Coverage_Ordering_Path
+labeling_source_bfs_path	src/ordering.h	/^	int labeling_source_bfs_path(NodeID source, vector<NodeID>& que, vector<bool>& vis, vector<NodeID>& parents, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_parent, vector<pair<vector<NodeID>, vector<NodeID> > >& r_tmp_idx_parent, Graph& graph) {$/;"	f	class:Betweenness_Ordering
+labeling_source_dij	src/coverage_ordering.h	/^	NodeID labeling_source_dij(NodeID source, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& descendants, vector<NodeID>& root_hop, vector<NodeID>& last_hop, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID>& visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, WGraph& wgraph){$/;"	f	class:Coverage_Ordering
+labeling_source_dij	src/coverage_ordering_compress.h	/^	NodeID labeling_source_dij(NodeID source, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& descendants, vector<NodeID>& root_hop, vector<NodeID>& last_hop, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID>& visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx,vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_parents, vector<NodeID>& parents, vector<pair<vector<NodeID>, vector<NodeID> > >&	tmp_idx_token_parents, WGraph& wgraph){$/;"	f	class:Coverage_Ordering_Compress
+labeling_source_dij	src/coverage_ordering_path.h	/^	NodeID labeling_source_dij(NodeID source, tree& parent_tree, vector<NodeID>& coverage, vector<NodeID>& descendants, vector<NodeID>& root_hop, vector<NodeID>& last_hop, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID>& visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_parents, vector<NodeID>& parents, WGraph& wgraph){$/;"	f	class:Coverage_Ordering_Path
+labeling_source_dij	src/ordering.h	/^	int labeling_source_dij(NodeID source, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<EdgeWeight>& r_dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_token_parents, vector<pair<vector<NodeID>, vector<NodeID> > >& r_tmp_idx_token_parents, WGraph& wgraph) {$/;"	f	class:Betweenness_Ordering
+labeling_source_dij	src/ordering.h	/^	int labeling_source_dij(NodeID source, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, WGraph& wgraph) {$/;"	f	class:Betweenness_Ordering
+labeling_source_dij_directed	src/coverage_ordering.h	/^	NodeID labeling_source_dij_directed(NodeID source, tree& parent_tree, tree& r_parent_tree, vector<NodeID>& coverage, vector<NodeID>& r_coverage, vector<NodeID>& descendants, vector<NodeID>& r_descendants, vector<NodeID>& root_hop, vector<NodeID>& r_root_hop, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID>& visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r,vector<EdgeWeight>& r_dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx,WGraph& wgraph){$/;"	f	class:Coverage_Ordering
+labeling_source_dij_directed	src/coverage_ordering_compress.h	/^	NodeID labeling_source_dij_directed(NodeID source, tree& parent_tree, tree& r_parent_tree, vector<NodeID>& coverage, vector<NodeID>& r_coverage, vector<NodeID>& descendants, vector<NodeID>& r_descendants, vector<NodeID>& root_hop, vector<NodeID>& r_root_hop, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID>& visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r,vector<EdgeWeight>& r_dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx , vector<pair<vector<NodeID>, vector<NodeID> > >&	tmp_idx_token_parents, vector<pair<vector<NodeID>, vector<NodeID> > >&	r_tmp_idx_token_parents, WGraph& wgraph){$/;"	f	class:Coverage_Ordering_Compress
+labeling_source_dij_directed	src/coverage_ordering_path.h	/^	NodeID labeling_source_dij_directed(NodeID source, tree& parent_tree, tree& r_parent_tree, vector<NodeID>& coverage, vector<NodeID>& r_coverage, vector<NodeID>& descendants, vector<NodeID>& r_descendants, vector<NodeID>& root_hop, vector<NodeID>& r_root_hop, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID>& visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<EdgeWeight>& dst_r,vector<EdgeWeight>& r_dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_parents, vector<NodeID>& parents,vector<pair<vector<NodeID>, vector<NodeID> > >& r_tmp_idx_parents, vector<NodeID>& r_parents,WGraph& wgraph){$/;"	f	class:Coverage_Ordering_Path
+labeling_source_dij_path	src/ordering.h	/^	int labeling_source_dij_path(NodeID source, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, queue<NodeID> &visited_que, vector<EdgeWeight>& distances, vector<bool>& vis, vector<NodeID>& parents, vector<EdgeWeight>& dst_r, vector<bool>& usd, NodeID ranking, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& tmp_idx, vector<pair<vector<NodeID>, vector<EdgeWeight> > >& r_tmp_idx, vector<pair<vector<NodeID>, vector<NodeID> > >& tmp_idx_parent, vector<pair<vector<NodeID>, vector<NodeID> > >& r_tmp_idx_parent, WGraph& wgraph) {$/;"	f	class:Betweenness_Ordering
+labeling_time	src/ordering.h	/^	double labeling_time;$/;"	m	class:BP_Betweenness_Ordering
+labeling_time	src/ordering.h	/^	double labeling_time;$/;"	m	class:Betweenness_Ordering
+labels	src/construction.h	/^	Label labels;$/;"	m	class:construction
+labels	src/coverage_ordering.h	/^		Label labels;$/;"	m	class:Coverage_Ordering
+labels	src/ordering.h	/^	Label labels;$/;"	m	class:BP_Betweenness_Ordering
+labels	src/ordering.h	/^	Label labels;$/;"	m	class:Betweenness_Ordering
+large_tree	src/ordering.h	/^	typedef	vector<NodeID> large_tree; \/\/ A V-sized parent-pointer array representing sampled trees. -1 for those vertices which do not appear in the tree.$/;"	t	class:BP_Betweenness_Ordering
+large_tree	src/ordering.h	/^	typedef	vector<NodeID> large_tree; \/\/ A V-sized parent-pointer array representing sampled trees. -1 for those vertices which do not appear in the tree.$/;"	t	class:Betweenness_Ordering
+last_available	src/coverage_ordering.h	/^		NodeID last_available;$/;"	m	class:Coverage_Ordering
+last_available	src/coverage_ordering_bp.h	/^		NodeID last_available;$/;"	m	class:Coverage_Ordering_BP
+last_available	src/coverage_ordering_compress.h	/^		NodeID last_available;$/;"	m	class:Coverage_Ordering_Compress
+last_available	src/coverage_ordering_path.h	/^		NodeID last_available;$/;"	m	class:Coverage_Ordering_Path
+level	src/graph.h	/^		NodeID level; \/\/ 0: the edges in original graphs otherwise they are added because the level-th node is contracted.$/;"	m	struct:CHGraph::CH_Edge
+load_ch_overlay_graph	src/graph.h	/^	bool load_ch_overlay_graph(const char* ch_graph_file) {$/;"	f	class:CHGraph
+load_graph	src/graph.h	/^	bool load_graph(const char* graph_file) {$/;"	f	class:CHGraph
+load_graph	src/graph.h	/^	bool load_graph(const char* graph_file) {$/;"	f	class:Graph
+load_graph	src/graph.h	/^	bool load_graph(const char* graph_file) {$/;"	f	class:WGraph
+load_labels	src/labels.h	/^	void load_labels(const char* load_filename) {$/;"	f	class:CLabel
+load_labels	src/labels.h	/^	void load_labels(const char* load_filename) {$/;"	f	class:DBPLabel
+load_labels	src/labels.h	/^	void load_labels(const char* load_filename) {$/;"	f	class:DLabel
+load_labels	src/labels.h	/^	void load_labels(const char* load_filename) {$/;"	f	class:DPLabel
+load_labels	src/labels.h	/^	void load_labels(const char* load_filename) {$/;"	f	class:Label
+load_labels	src/labels.h	/^	void load_labels(const char* load_filename) {$/;"	f	class:PLabel
+load_labels	src/labels.h	/^	void load_labels(const char* load_filename){$/;"	f	class:BPLabel
+load_labels_d	src/labels.h	/^	void load_labels_d(const char* load_filename) {$/;"	f	class:CLabel
+load_labels_path	src/labels.h	/^	void load_labels_path(const char* load_filename) {$/;"	f	class:CLabel
+load_labels_with_k	src/labels.h	/^	void load_labels_with_k(const char* load_filename, int k) {$/;"	f	class:Label
+load_two_level_labels	src/labels.h	/^	void load_two_level_labels(const char* load_filename) {$/;"	f	class:CLabel
+load_two_level_labels_d	src/labels.h	/^	void load_two_level_labels_d(const char* load_filename) {$/;"	f	class:CLabel
+load_two_level_labels_path	src/labels.h	/^	void load_two_level_labels_path(const char* load_filename) {$/;"	f	class:CLabel
+load_wgraph	src/graph.h	/^	bool load_wgraph(const char* graph_file) {$/;"	f	class:CHGraph
+ltrees	src/ordering.h	/^	vector<large_tree> ltrees;$/;"	m	class:BP_Betweenness_Ordering
+ltrees	src/ordering.h	/^	vector<large_tree> ltrees;$/;"	m	class:Betweenness_Ordering
+main	command/ConstructionParadigms.h	/^        int main(int argc, char *argv[])$/;"	f	class:command::ConstructionParadigms
+main	command/IndexProcessing.h	/^        int main(int argc, char *argv[])$/;"	f	class:command::IndexProcessing
+main	command/QueryProcessing.h	/^        int main(int argc, char *argv[])$/;"	f	class:command::QueryProcessing
+main	main.cpp	/^    int main(int argc, char *argv[]){$/;"	f
+max_n	src/heap.h	/^	node_t max_n;$/;"	m	class:benchmark::heap
+meet_node	src/labels.h	/^	NodeID meet_node;$/;"	m	struct:query_info
+mtmBucket	src/construction.h	/^	vector<Bucket> mtmBucket;$/;"	m	class:Bottomup
+n	src/heap.h	/^	node_t n;$/;"	m	class:benchmark::heap
+node_t	src/heap.h	/^	typedef id_t node_t;$/;"	t	class:benchmark::heap
+nodeid_vector_hasher	src/construction.h	/^	class nodeid_vector_hasher {$/;"	c	class:CPL
+nodeid_vector_hasher	src/construction.h	/^	class nodeid_vector_hasher {$/;"	c	class:CPL_W
+nodeid_vector_hasher	src/coverage_ordering_compress.h	/^    class nodeid_vector_hasher {$/;"	c	namespace:std
+nodeid_vector_hasher	src/ordering.h	/^	class nodeid_vector_hasher {$/;"	c	class:Betweenness_Ordering
+normalize	src/coverage_ordering.h	/^	double normalize(NodeID mina, NodeID maxa, NodeID minb, NodeID maxb, NodeID a, NodeID b){$/;"	f	class:Coverage_Ordering
+normalize	src/coverage_ordering_compress.h	/^	double normalize(NodeID mina, NodeID maxa, NodeID minb, NodeID maxb, NodeID a, NodeID b){$/;"	f	class:Coverage_Ordering_Compress
+normalize	src/coverage_ordering_path.h	/^	double normalize(NodeID mina, NodeID maxa, NodeID minb, NodeID maxb, NodeID a, NodeID b){$/;"	f	class:Coverage_Ordering_Path
+numOfEdges	src/construction.h	48;"	d
+numOfEdges	src/coverage_ordering.h	53;"	d
+numOfEdges	src/coverage_ordering_bp.h	52;"	d
+numOfEdges	src/coverage_ordering_compress.h	52;"	d
+numOfEdges	src/coverage_ordering_path.h	52;"	d
+numOfEdges	src/graph.h	60;"	d
+numOfEdges	src/labels.h	51;"	d
+numOfEdges	src/ordering.h	53;"	d
+numOfEdges	src/paras.h	/^	int numOfEdges = 0;$/;"	m	namespace:SP_Constants
+numOfTokens	src/labels.h	/^	NodeID numOfTokens;$/;"	m	class:CLabel
+numOfVertices	src/construction.h	47;"	d
+numOfVertices	src/coverage_ordering.h	52;"	d
+numOfVertices	src/coverage_ordering_bp.h	51;"	d
+numOfVertices	src/coverage_ordering_compress.h	51;"	d
+numOfVertices	src/coverage_ordering_path.h	51;"	d
+numOfVertices	src/graph.h	59;"	d
+numOfVertices	src/labels.h	50;"	d
+numOfVertices	src/ordering.h	52;"	d
+numOfVertices	src/paras.h	/^	int numOfVertices = 0;$/;"	m	namespace:SP_Constants
+num_of_trees	src/ordering.h	/^	int num_of_trees;$/;"	m	class:BP_Betweenness_Ordering
+num_of_trees	src/ordering.h	/^	int num_of_trees;$/;"	m	class:Betweenness_Ordering
+operator ()	src/construction.h	/^		std::size_t operator()(std::pair<NodeID, std::vector<NodeID> > const& pairvec) const {$/;"	f	class:CPL::nodeid_vector_hasher
+operator ()	src/construction.h	/^		std::size_t operator()(std::pair<NodeID, std::vector<NodeID> > const& pairvec) const {$/;"	f	class:CPL_W::nodeid_vector_hasher
+operator ()	src/coverage_ordering_compress.h	/^		std::size_t operator()(std::pair<NodeID, std::vector<NodeID> > const& pairvec) const {$/;"	f	class:std::nodeid_vector_hasher
+operator ()	src/ordering.h	/^		std::size_t operator()(std::pair<NodeID, std::vector<NodeID> > const& pairvec) const {$/;"	f	class:Betweenness_Ordering::nodeid_vector_hasher
+operator <	src/graph.h	/^		bool operator<(const CH_Edge& rhs) const {			$/;"	f	struct:CHGraph::CH_Edge
+orders	src/construction.h	/^	Ordering orders;$/;"	m	class:construction
+pick	src/coverage_ordering.h	/^	NodeID pick(Graph& graph, vector<bool>& usd, NodeID iter_num,  vector<NodeID>& candidate, vector<NodeID>& coverage, vector<NodeID>& acc_count, tree& parent_tree, vector<NodeID>& root_hop, vector<NodeID>& last_hop, vector<NodeID>& last_alive, vector<NodeID>& depth){$/;"	f	class:Coverage_Ordering
+plabels	src/construction.h	/^	PLabel plabels;$/;"	m	class:construction
+plabels	src/coverage_ordering_path.h	/^		PLabel plabels;$/;"	m	class:Coverage_Ordering_Path
+plabels	src/ordering.h	/^	PLabel plabels;$/;"	m	class:BP_Betweenness_Ordering
+plabels	src/ordering.h	/^	PLabel plabels;$/;"	m	class:Betweenness_Ordering
+position	src/heap.h	/^	vector<node_t> position;$/;"	m	class:benchmark::heap
+possibleWitness	src/construction.h	/^	vector<EdgeWeight> possibleWitness;$/;"	m	class:Bottomup
+print_stat	src/labels.h	/^	void print_stat() {$/;"	f	class:BPLabel
+print_stat	src/labels.h	/^	void print_stat() {$/;"	f	class:CLabel
+print_stat	src/labels.h	/^	void print_stat() {$/;"	f	class:DBPLabel
+print_stat	src/labels.h	/^	void print_stat() {$/;"	f	class:DLabel
+print_stat	src/labels.h	/^	void print_stat() {$/;"	f	class:DPLabel
+print_stat	src/labels.h	/^	void print_stat() {$/;"	f	class:Label
+print_stat	src/labels.h	/^	void print_stat() {$/;"	f	class:PLabel
+print_stat_d	src/labels.h	/^	void print_stat_d() {$/;"	f	class:CLabel
+process_shortcuts	src/construction.h	/^	long process_shortcuts(CHGraph& chgraph, vector<vector<CHGraph::CH_Edge> > shortcuts) {$/;"	f	class:Bottomup
+process_shortcuts_directed	src/construction.h	/^	long process_shortcuts_directed(CHGraph& chgraph, vector<vector<CHGraph::CH_Edge> > shortcuts, vector<vector<CHGraph::CH_Edge> > r_shortcuts) {$/;"	f	class:Bottomup
+pruning_power	src/construction.h	/^	vector<double> pruning_power;$/;"	m	class:Bottomup
+pruning_power	src/construction.h	/^	vector<double> pruning_power;$/;"	m	class:CPL
+pruning_power	src/construction.h	/^	vector<double> pruning_power;$/;"	m	class:CPL_W
+pruning_power	src/construction.h	/^	vector<double> pruning_power;$/;"	m	class:PL
+pruning_power	src/construction.h	/^	vector<double> pruning_power;$/;"	m	class:PL_W
+query	src/labels.h	/^	EdgeWeight query(NodeID s, NodeID t) {$/;"	f	class:DLabel
+query	src/labels.h	/^	EdgeWeight query(NodeID s, NodeID t) {$/;"	f	class:Label
+query	src/labels.h	/^	EdgeWeight query(NodeID s, NodeID t) {$/;"	f	class:PLabel
+query	src/labels.h	/^	EdgeWeight query(NodeID s, NodeID t, NodeID& meet, EdgeWeight& dis1, EdgeWeight& dis2) {$/;"	f	class:DLabel
+query	src/labels.h	/^	EdgeWeight query(NodeID s, NodeID t, NodeID& meet, EdgeWeight& dis1, EdgeWeight& dis2) {$/;"	f	class:Label
+query	src/labels.h	/^	EdgeWeight query(NodeID s, NodeID t, NodeID& meet, EdgeWeight& dis1, EdgeWeight& dis2) {$/;"	f	class:PLabel
+query_info	src/labels.h	/^struct query_info {$/;"	s
+query_p	src/labels.h	/^	EdgeWeight query_p(NodeID s, NodeID t) {$/;"	f	class:BPLabel
+query_p	src/labels.h	/^	EdgeWeight query_p(NodeID s, NodeID t) {$/;"	f	class:DBPLabel
+query_p	src/labels.h	/^	EdgeWeight query_p(NodeID s, NodeID t) {$/;"	f	class:Label
+query_p	src/labels.h	/^	EdgeWeight query_p(NodeID s, NodeID t) {$/;"	f	class:PLabel
+query_p	src/labels.h	/^	EdgeWeight query_p(NodeID s, NodeID t, bool& isBP) {$/;"	f	class:BPLabel
+query_p	src/labels.h	/^	EdgeWeight query_p(NodeID s, NodeID t, bool& isBP) {$/;"	f	class:DBPLabel
+query_p	src/labels.h	/^	EdgeWeight query_p(NodeID s, NodeID t, long ts, vector<NodeID>& dis_vec, vector<long>& ts_vec, vector<NodeID>& que, vector<EdgeWeight>& que_d) {$/;"	f	class:CLabel
+query_p	src/labels.h	/^	inline EdgeWeight query_p(NodeID s, NodeID t) {$/;"	f	class:DLabel
+query_p	src/labels.h	/^	inline EdgeWeight query_p(NodeID s, NodeID t) {$/;"	f	class:DPLabel
+query_p_d	src/labels.h	/^	EdgeWeight query_p_d(NodeID s, NodeID t, long ts, vector<NodeID>& dis_vec, vector<long>& ts_vec, vector<NodeID>& que, vector<EdgeWeight>& que_d) {$/;"	f	class:CLabel
+query_p_two_level	src/labels.h	/^	EdgeWeight query_p_two_level(NodeID s, NodeID t, long ts, vector<NodeID>& dis_vec, vector<long>& ts_vec, vector<NodeID>& que, vector<EdgeWeight>& que_d) {$/;"	f	class:CLabel
+query_p_two_level_d	src/labels.h	/^	EdgeWeight query_p_two_level_d(NodeID s, NodeID t, long ts, vector<NodeID>& dis_vec, vector<long>& ts_vec, vector<NodeID>& que, vector<EdgeWeight>& que_d) {$/;"	f	class:CLabel
+query_p_with_nums	src/labels.h	/^	EdgeWeight query_p_with_nums(NodeID s, NodeID t, int k) {$/;"	f	class:Label
+query_path	src/labels.h	/^	EdgeWeight query_path(NodeID s, NodeID t, vector<NodeID>& rank, vector<NodeID>& inv) {$/;"	f	class:PLabel
+query_path	src/labels.h	/^	inline EdgeWeight query_path(NodeID s, NodeID t, vector<NodeID>& rank, vector<NodeID>& inv) {$/;"	f	class:DPLabel
+query_path_check	src/labels.h	/^	EdgeWeight query_path_check(NodeID s, NodeID t, vector<NodeID>& rank, vector<NodeID>& inv) {$/;"	f	class:PLabel
+query_path_p	src/labels.h	/^	EdgeWeight query_path_p(NodeID s, NodeID t, vector<NodeID>& rank, vector<NodeID>& inv) {$/;"	f	class:DPLabel
+query_with_info	src/labels.h	/^	EdgeWeight query_with_info(NodeID s, NodeID t, query_info& q_info) {$/;"	f	class:DLabel
+query_with_info	src/labels.h	/^	EdgeWeight query_with_info(NodeID s, NodeID t, query_info& q_info) {$/;"	f	class:Label
+query_with_info	src/labels.h	/^	EdgeWeight query_with_info(NodeID s, NodeID t, query_info& q_info) {$/;"	f	class:PLabel
+r_adj	src/graph.h	/^	vector<vector<CH_Edge> > r_adj;$/;"	m	class:CHGraph
+r_adj	src/graph.h	/^	vector<vector<NodeID> > r_adj; \/\/ Reverse adjacent lists for directed search.$/;"	m	class:Graph
+r_adj_weight	src/graph.h	/^	vector< vector<EdgeWeight> > r_adj_weight; \/\/ Weights of reverse adjacent lists;$/;"	m	class:WGraph
+r_anchor_p	src/labels.h	/^	NodeID* r_anchor_p;$/;"	m	class:CLabel
+r_children_size	src/construction.h	/^	long r_children_size;$/;"	m	class:CPL
+r_children_size	src/construction.h	/^	long r_children_size;$/;"	m	class:CPL_W
+r_children_size	src/coverage_ordering_compress.h	/^		long r_children_size;$/;"	m	class:Coverage_Ordering_Compress
+r_children_size	src/ordering.h	/^	long r_children_size;$/;"	m	class:Betweenness_Ordering
+r_edges	src/graph.h	/^	vector<NodeEdgeWeightPair> r_edges;$/;"	m	class:WGraph
+r_edges	src/graph.h	/^	vector<NodeID> r_edges;$/;"	m	class:Graph
+r_numOfTokens	src/labels.h	/^	NodeID r_numOfTokens;$/;"	m	class:CLabel
+r_supertokenindex_p	src/labels.h	/^	token_t* r_supertokenindex_p;$/;"	m	class:CLabel
+r_tokenindex_p	src/labels.h	/^	token_t* r_tokenindex_p;$/;"	m	class:CLabel
+r_total_children	src/labels.h	/^	long r_total_children;$/;"	m	class:CLabel
+r_vertices	src/graph.h	/^	vector<EdgeID> r_vertices;$/;"	m	class:Graph
+rank	src/coverage_ordering.h	/^	vector<NodeID> rank; \/\/ Fetch the ranking of a given vertex id.$/;"	m	class:COrdering
+rank	src/coverage_ordering_bp.h	/^	vector<NodeID> rank; \/\/ Fetch the ranking of a given vertex id.$/;"	m	class:COrdering_BP
+rank	src/coverage_ordering_compress.h	/^	vector<NodeID> rank; \/\/ Fetch the ranking of a given vertex id.$/;"	m	class:COrdering_C
+rank	src/coverage_ordering_path.h	/^	vector<NodeID> rank; \/\/ Fetch the ranking of a given vertex id.$/;"	m	class:COrdering_P
+rank	src/ordering.h	/^	vector<NodeID> rank; \/\/ Fetch the ranking of a given vertex id.$/;"	m	class:Ordering
+read_query_rank	src/graph_search.h	/^	void read_query_rank(const char* rank_query_file, map<NodeID, vector<pair<NodeID, NodeID> > >& rank_query_pair) {$/;"	f	namespace:graph_search
+relabelByOrder	src/construction.h	/^	int relabelByOrder(CHGraph &chgraph, Ordering &orders) {$/;"	f	class:Bottomup
+remove_large_node	src/ordering.h	/^	void remove_large_node(NodeID v, large_tree& ltree) {$/;"	f	class:BP_Betweenness_Ordering
+remove_large_node	src/ordering.h	/^	void remove_large_node(NodeID v, large_tree& ltree) {$/;"	f	class:Betweenness_Ordering
+remove_small_node	src/ordering.h	/^	void remove_small_node(NodeID v, small_tree& stree) {$/;"	f	class:BP_Betweenness_Ordering
+remove_small_node	src/ordering.h	/^	void remove_small_node(NodeID v, small_tree& stree) {$/;"	f	class:Betweenness_Ordering
+save_dis_stat	src/time_util.h	/^	void save_dis_stat(string dis_stat_file, vector<pair<int, int> > dis_meet, vector<pair<int, int> > dis_meet_dis1, vector<pair<int, int> > dis_meet_dis2){$/;"	f	namespace:time_util
+save_label_dis_distribution_unweight_undirected	src/time_util.h	/^	void save_label_dis_distribution_unweight_undirected(string label_dis_distr_filename, vector<index_t> index){$/;"	f	namespace:time_util
+save_label_dis_distribution_weight_directed	src/time_util.h	/^	void save_label_dis_distribution_weight_directed(string label_dis_distr_filename, vector<index_t> index, vector<index_t> bindex){$/;"	f	namespace:time_util
+save_labels	src/labels.h	/^	void save_labels(const char* save_filename) {$/;"	f	class:BPLabel
+save_labels	src/labels.h	/^	void save_labels(const char* save_filename) {$/;"	f	class:CLabel
+save_labels	src/labels.h	/^	void save_labels(const char* save_filename) {$/;"	f	class:DBPLabel
+save_labels	src/labels.h	/^	void save_labels(const char* save_filename) {$/;"	f	class:DLabel
+save_labels	src/labels.h	/^	void save_labels(const char* save_filename) {$/;"	f	class:DPLabel
+save_labels	src/labels.h	/^	void save_labels(const char* save_filename) {$/;"	f	class:Label
+save_labels	src/labels.h	/^	void save_labels(const char* save_filename) {$/;"	f	class:PLabel
+save_labels_d	src/labels.h	/^	void save_labels_d(const char* save_filename) {$/;"	f	class:CLabel
+save_labels_iteration_stats	src/labels.h	/^	void save_labels_iteration_stats(const char* save_filename) {$/;"	f	class:DLabel
+save_labels_iteration_stats	src/labels.h	/^	void save_labels_iteration_stats(const char* save_filename) {$/;"	f	class:Label
+save_labels_iteration_stats	src/labels.h	/^	void save_labels_iteration_stats(const char* save_filename) {$/;"	f	class:PLabel
+save_labels_path	src/labels.h	/^	void save_labels_path(const char* save_filename) {$/;"	f	class:CLabel
+save_rank	src/coverage_ordering.h	/^	void save_rank(const char* order_file) {$/;"	f	class:COrdering
+save_rank	src/coverage_ordering_bp.h	/^	void save_rank(const char* order_file) {$/;"	f	class:COrdering_BP
+save_rank	src/coverage_ordering_compress.h	/^	void save_rank(const char* order_file) {$/;"	f	class:COrdering_C
+save_rank	src/coverage_ordering_path.h	/^	void save_rank(const char* order_file) {$/;"	f	class:COrdering_P
+save_rank	src/ordering.h	/^	void save_rank(const char* order_file) {$/;"	f	class:Ordering
+save_stat	src/time_util.h	/^	void save_stat(string stat_file, double load_time, double ordering_time, double labeling_time, double avg_size, vector<double>& each_iteration, vector<double>& pruning_power) {$/;"	f	namespace:time_util
+save_stat_betweenness	src/time_util.h	/^	void save_stat_betweenness(string stat_file, double init_time, double selecting_time, double labeling_time, double updating_time, double adding_time, double avg_size, vector<double>& each_iteration, vector<NodeID>& pruning_power) {$/;"	f	namespace:time_util
+save_two_level_labels	src/labels.h	/^	void save_two_level_labels(const char* save_filename) {$/;"	f	class:CLabel
+save_two_level_labels_d	src/labels.h	/^	void save_two_level_labels_d(const char* save_filename) {$/;"	f	class:CLabel
+save_two_level_labels_path	src/labels.h	/^	void save_two_level_labels_path(const char* save_filename) {$/;"	f	class:CLabel
+search_len	src/labels.h	/^	NodeID search_len;$/;"	m	struct:query_info
+selecting_time	src/ordering.h	/^	double selecting_time;$/;"	m	class:BP_Betweenness_Ordering
+selecting_time	src/ordering.h	/^	double selecting_time;$/;"	m	class:Betweenness_Ordering
+shrink_tree	src/ordering.h	/^	void shrink_tree(int tid, NodeID root, large_tree& ltree_tid) {$/;"	f	class:BP_Betweenness_Ordering
+shrink_tree	src/ordering.h	/^	void shrink_tree(int tid, NodeID root, large_tree& ltree_tid) {$/;"	f	class:Betweenness_Ordering
+sift_down	src/heap.h	/^	inline void sift_down(node_t i) {$/;"	f	class:benchmark::heap
+sift_up	src/heap.h	/^	inline void sift_up(node_t i) {$/;"	f	class:benchmark::heap
+sigpathpick	src/coverage_ordering.h	/^	NodeID sigpathpick(Graph& graph, vector<bool>& usd, NodeID iter_num, vector<NodeID>& candidate, vector<NodeID>& coverage, vector<NodeID>& root_hop){$/;"	f	class:Coverage_Ordering
+simplepick	src/coverage_ordering.h	/^	NodeID simplepick(Graph& graph, vector<bool>& usd, NodeID iter_num, vector<NodeID>& candidate, vector<NodeID>& coverage, vector<NodeID>& root_hop){$/;"	f	class:Coverage_Ordering
+size	src/heap.h	/^	inline node_t size() const {$/;"	f	class:benchmark::heap
+size	src/labels.h	/^	NodeID size() {$/;"	f	struct:index_t
+size	src/labels.h	/^	NodeID size() {$/;"	f	struct:index_t_path
+skip_count	src/ordering.h	/^	int skip_count = 0;$/;"	m	class:BP_Betweenness_Ordering
+small_tree	src/ordering.h	/^	typedef	google::dense_hash_map<NodeID, NodeID> small_tree; \/\/ A smaller hashmap, mapping a tree node vertex to its parent vertex.$/;"	t	class:BP_Betweenness_Ordering
+small_tree	src/ordering.h	/^	typedef	google::dense_hash_map<NodeID, NodeID> small_tree; \/\/ A smaller hashmap, mapping a tree node vertex to its parent vertex.$/;"	t	class:Betweenness_Ordering
+spt_d	src/labels.h	/^	EdgeWeight* spt_d;$/;"	m	struct:index_t_bp
+spt_d	src/labels.h	/^	EdgeWeight* spt_d;$/;"	m	struct:index_t_p
+spt_d	src/labels.h	/^	EdgeWeight* spt_d;$/;"	m	struct:index_t_path_p
+spt_d	src/labels.h	/^	EdgeWeight* spt_d;$/;"	m	struct:two_index_t_p
+spt_d	src/labels.h	/^	vector<EdgeWeight> spt_d;$/;"	m	struct:index_t
+spt_d	src/labels.h	/^	vector<EdgeWeight> spt_d;$/;"	m	struct:index_t_path
+spt_ld	src/labels.h	/^	EdgeWeight* spt_ld;$/;"	m	struct:two_index_t_p
+spt_lv	src/labels.h	/^	uint8_t* spt_lv;$/;"	m	struct:two_index_t_p
+spt_p	src/labels.h	/^	NodeID* spt_p;$/;"	m	struct:index_t_path_p
+spt_p	src/labels.h	/^	vector<NodeID> spt_p;\/\/parent nodes$/;"	m	struct:index_t_path
+spt_v	src/labels.h	/^	NodeID* spt_v;$/;"	m	struct:index_t_bp
+spt_v	src/labels.h	/^	NodeID* spt_v;$/;"	m	struct:index_t_p
+spt_v	src/labels.h	/^	NodeID* spt_v;$/;"	m	struct:index_t_path_p
+spt_v	src/labels.h	/^	NodeID* spt_v;$/;"	m	struct:two_index_t_p
+spt_v	src/labels.h	/^	vector<NodeID> spt_v;$/;"	m	struct:index_t
+spt_v	src/labels.h	/^	vector<NodeID> spt_v;$/;"	m	struct:index_t_path
+sptc_d	src/labels.h	/^	EdgeWeight* sptc_d;	 \/\/ |*| = k + 1, sptc_d[0] is the number of children - k$/;"	m	struct:token_t
+sptc_fbv	src/labels.h	/^	unsigned char* sptc_fbv; \/\/ first-level bit vector$/;"	m	struct:token_t
+sptc_pathv	src/labels.h	/^	NodeID* sptc_pathv; \/\/ intermediate point for a path$/;"	m	struct:token_t
+sptc_sbv	src/labels.h	/^	unsigned char* sptc_sbv; \/\/ second-level bit vector$/;"	m	struct:token_t
+sptc_v	src/labels.h	/^	NodeID* sptc_v; \/\/ sptc_v[0] is the root$/;"	m	struct:token_t
+std	src/coverage_ordering_compress.h	/^namespace std$/;"	n
+strees	src/ordering.h	/^	vector<small_tree> strees;$/;"	m	class:BP_Betweenness_Ordering
+strees	src/ordering.h	/^	vector<small_tree> strees;$/;"	m	class:Betweenness_Ordering
+sum_neighbors	src/coverage_ordering.h	/^	NodeID sum_neighbors(NodeID v, NodeID pv, Graph& graph, vector<bool>& usd,  vector<NodeID>& coverage, vector<NodeID>& acc_count, tree& parent_tree, vector<NodeID>& root_hop, vector<NodeID>& last_alive, vector<NodeID>& last_hop){$/;"	f	class:Coverage_Ordering
+supertokenindex_p	src/labels.h	/^	token_t* supertokenindex_p;$/;"	m	class:CLabel
+swap	src/heap.h	/^	inline void swap(const node_t i, const node_t j) {$/;"	f	class:benchmark::heap
+switch_small	src/ordering.h	/^	bool switch_small;$/;"	m	class:BP_Betweenness_Ordering
+switch_small	src/ordering.h	/^	bool switch_small;$/;"	m	class:Betweenness_Ordering
+target	src/graph.h	/^		NodeID target;$/;"	m	struct:CHGraph::CH_Edge
+td_labeling	src/construction.h	/^	void td_labeling(CHGraph &chgraph, Ordering &orders) {$/;"	f	class:Bottomup
+time_cost	src/labels.h	/^	double time_cost;$/;"	m	struct:query_info
+time_util	src/time_util.h	/^namespace time_util {$/;"	n
+token_string	src/coverage_ordering_compress.h	/^	string token_string(NodeID r, vector<NodeID>& token){$/;"	f	class:Coverage_Ordering_Compress
+token_t	src/labels.h	/^struct token_t {$/;"	s
+tokenindex_p	src/labels.h	/^	token_t* tokenindex_p;$/;"	m	class:CLabel
+top	src/heap.h	/^	inline key_t top() {$/;"	f	class:benchmark::heap
+top_value	src/heap.h	/^	inline node_t top_value() {$/;"	f	class:benchmark::heap
+topcan	src/coverage_ordering.h	/^	NodeID topcan(vector<NodeID>& inv, vector<bool>& usd, NodeID& last_available){$/;"	f	class:Coverage_Ordering
+topcan	src/coverage_ordering_bp.h	/^	NodeID topcan(vector<NodeID>& inv, vector<bool>& usd, NodeID& last_available){$/;"	f	class:Coverage_Ordering_BP
+topcan	src/coverage_ordering_compress.h	/^	NodeID topcan(vector<NodeID>& inv, vector<bool>& usd, NodeID& last_available){$/;"	f	class:Coverage_Ordering_Compress
+topcan	src/coverage_ordering_path.h	/^	NodeID topcan(vector<NodeID>& inv, vector<bool>& usd, NodeID& last_available){$/;"	f	class:Coverage_Ordering_Path
+total_children	src/labels.h	/^	long total_children;$/;"	m	class:CLabel
+total_resources	src/ordering.h	/^	long total_resources;$/;"	m	class:BP_Betweenness_Ordering
+total_resources	src/ordering.h	/^	long total_resources;$/;"	m	class:Betweenness_Ordering
+tree	src/coverage_ordering.h	/^	typedef	vector<NodeID> tree;$/;"	t	class:Coverage_Ordering
+tree	src/coverage_ordering_bp.h	/^	typedef	vector<NodeID> tree;$/;"	t	class:Coverage_Ordering_BP
+tree	src/coverage_ordering_compress.h	/^	typedef	vector<NodeID> tree;$/;"	t	class:Coverage_Ordering_Compress
+tree	src/coverage_ordering_path.h	/^	typedef	vector<NodeID> tree;$/;"	t	class:Coverage_Ordering_Path
+trees_pointers	src/ordering.h	/^	vector<NodeID> trees_pointers;$/;"	m	class:BP_Betweenness_Ordering
+trees_pointers	src/ordering.h	/^	vector<NodeID> trees_pointers;$/;"	m	class:Betweenness_Ordering
+two_index_p	src/labels.h	/^	two_index_t_p* two_index_p;$/;"	m	class:Label
+two_index_t_p	src/labels.h	/^struct two_index_t_p {$/;"	s
+two_query_p_parallel	src/labels.h	/^	EdgeWeight two_query_p_parallel(NodeID s, NodeID t) {$/;"	f	class:Label
+two_query_p_sequential	src/labels.h	/^	EdgeWeight two_query_p_sequential(NodeID s, NodeID t) {$/;"	f	class:Label
+u10_time	src/ordering.h	/^	double u10_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u10_time	src/ordering.h	/^	double u10_time = 0;$/;"	m	class:Betweenness_Ordering
+u11_time	src/ordering.h	/^	double u11_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u11_time	src/ordering.h	/^	double u11_time = 0;$/;"	m	class:Betweenness_Ordering
+u12_time	src/ordering.h	/^	double u12_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u12_time	src/ordering.h	/^	double u12_time = 0;$/;"	m	class:Betweenness_Ordering
+u1_time	src/ordering.h	/^	double u1_time;$/;"	m	class:BP_Betweenness_Ordering
+u1_time	src/ordering.h	/^	double u1_time;$/;"	m	class:Betweenness_Ordering
+u2_time	src/ordering.h	/^	double u2_time;$/;"	m	class:BP_Betweenness_Ordering
+u2_time	src/ordering.h	/^	double u2_time;$/;"	m	class:Betweenness_Ordering
+u3_time	src/ordering.h	/^	double u3_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u3_time	src/ordering.h	/^	double u3_time = 0;$/;"	m	class:Betweenness_Ordering
+u4_time	src/ordering.h	/^	double u4_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u4_time	src/ordering.h	/^	double u4_time = 0;$/;"	m	class:Betweenness_Ordering
+u5_time	src/ordering.h	/^	double u5_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u5_time	src/ordering.h	/^	double u5_time = 0;$/;"	m	class:Betweenness_Ordering
+u6_time	src/ordering.h	/^	double u6_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u6_time	src/ordering.h	/^	double u6_time = 0;$/;"	m	class:Betweenness_Ordering
+u7_time	src/ordering.h	/^	double u7_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u7_time	src/ordering.h	/^	double u7_time = 0;$/;"	m	class:Betweenness_Ordering
+u81_time	src/ordering.h	/^	double u81_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u81_time	src/ordering.h	/^	double u81_time = 0;$/;"	m	class:Betweenness_Ordering
+u82_time	src/ordering.h	/^	double u82_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u82_time	src/ordering.h	/^	double u82_time = 0;$/;"	m	class:Betweenness_Ordering
+u8_time	src/ordering.h	/^	double u8_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u8_time	src/ordering.h	/^	double u8_time = 0;$/;"	m	class:Betweenness_Ordering
+u91_time	src/ordering.h	/^	double u91_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u91_time	src/ordering.h	/^	double u91_time = 0;$/;"	m	class:Betweenness_Ordering
+u92_time	src/ordering.h	/^	double u92_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u92_time	src/ordering.h	/^	double u92_time = 0;$/;"	m	class:Betweenness_Ordering
+u9_time	src/ordering.h	/^	double u9_time = 0;$/;"	m	class:BP_Betweenness_Ordering
+u9_time	src/ordering.h	/^	double u9_time = 0;$/;"	m	class:Betweenness_Ordering
+undirected_weighted_sigpath	src/coverage_ordering.h	/^	void undirected_weighted_sigpath(WGraph& wgraph){ $/;"	f	class:Coverage_Ordering
+undirected_weighted_sigpath	src/coverage_ordering_compress.h	/^	void undirected_weighted_sigpath(WGraph& wgraph){ $/;"	f	class:Coverage_Ordering_Compress
+undirected_weighted_sigpath	src/coverage_ordering_path.h	/^	void undirected_weighted_sigpath(WGraph& wgraph){ $/;"	f	class:Coverage_Ordering_Path
+update	src/heap.h	/^	inline void update(const node_t element, const key_t key) {$/;"	f	class:benchmark::heap
+updating_time	src/ordering.h	/^	double updating_time;$/;"	m	class:BP_Betweenness_Ordering
+updating_time	src/ordering.h	/^	double updating_time;$/;"	m	class:Betweenness_Ordering
+validation	src/coverage_ordering_compress.h	/^	void validation(pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >& tmp_idx_token_parents_v, token_t* tokens_list, token_t* supertokens, NodeID anchorid, vector<NodeID>& que){$/;"	f	class:Coverage_Ordering_Compress
+validation	src/coverage_ordering_compress.h	/^	void validation(pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >& tmp_idx_token_parents_v, vector<token_t>& tokens_list, NodeID anchorid, vector<NodeID>& que){$/;"	f	class:Coverage_Ordering_Compress
+validation	src/coverage_ordering_compress.h	/^	void validation(pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >& tmp_idx_token_parents_v, vector<token_t>& tokens_list, token_t* supertokens, NodeID anchorid, vector<NodeID>& que){$/;"	f	class:Coverage_Ordering_Compress
+validation	src/coverage_ordering_compress.h	/^	void validation(pair<vector<NodeID>, vector<EdgeWeight> > & tmp_idx_v, pair<vector<NodeID>, vector<NodeID> >& tmp_idx_token_parents_v, vector<token_t>& tokens_list,vector<token_t>& supertokens, NodeID anchorid, vector<NodeID>& que){$/;"	f	class:Coverage_Ordering_Compress
+vertices	src/graph.h	/^	vector<EdgeID> vertices;$/;"	m	class:Graph
+walk_stats	src/coverage_ordering.h	/^	void walk_stats(Graph& graph, vector<NodeID> border){$/;"	f	class:Coverage_Ordering
+walk_stats	src/coverage_ordering_bp.h	/^	void walk_stats(Graph& graph, vector<NodeID> border){$/;"	f	class:Coverage_Ordering_BP
+walk_stats	src/coverage_ordering_compress.h	/^	void walk_stats(Graph& graph){$/;"	f	class:Coverage_Ordering_Compress
+walk_stats	src/coverage_ordering_path.h	/^	void walk_stats(Graph& graph, vector<NodeID> border){$/;"	f	class:Coverage_Ordering_Path
+weight	src/graph.h	/^		EdgeWeight weight;$/;"	m	struct:CHGraph::CH_Edge
+witness_search	src/construction.h	/^	int witness_search(NodeID v, CHGraph& chgraph, const int hopLimitsParameter, Ordering& orders, vector<bool>& vis, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, unordered_set<NodeID>& visited_set, vector<EdgeWeight>& distances, vector<bool>& hitTarget) {$/;"	f	class:Bottomup
+witness_search_directed	src/construction.h	/^	int witness_search_directed(NodeID v, CHGraph& chgraph, const int hopLimitsParameter, Ordering& orders, vector<bool>& vis, benchmark::heap<2, EdgeWeight, NodeID>& pqueue, unordered_set<NodeID>& visited_set, vector<EdgeWeight>& distances, vector<bool>& hitTarget) {$/;"	f	class:Bottomup
+~BPLabel	src/labels.h	/^	~BPLabel() {$/;"	f	class:BPLabel
+~BP_Betweenness_Ordering	src/ordering.h	/^	~BP_Betweenness_Ordering() {$/;"	f	class:BP_Betweenness_Ordering
+~Betweenness_Ordering	src/ordering.h	/^	~Betweenness_Ordering() {$/;"	f	class:Betweenness_Ordering
+~CHGraph	src/graph.h	/^	~CHGraph() {$/;"	f	class:CHGraph
+~COrdering	src/coverage_ordering.h	/^	~COrdering() {$/;"	f	class:COrdering
+~COrdering_BP	src/coverage_ordering_bp.h	/^	~COrdering_BP() {$/;"	f	class:COrdering_BP
+~COrdering_C	src/coverage_ordering_compress.h	/^	~COrdering_C() {$/;"	f	class:COrdering_C
+~COrdering_P	src/coverage_ordering_path.h	/^	~COrdering_P() {$/;"	f	class:COrdering_P
+~Command	command.h	/^        virtual ~Command() {};$/;"	f	class:Command
+~DBPLabel	src/labels.h	/^	~DBPLabel() {$/;"	f	class:DBPLabel
+~DLabel	src/labels.h	/^	~DLabel() {  $/;"	f	class:DLabel
+~DPLabel	src/labels.h	/^	~DPLabel() {$/;"	f	class:DPLabel
+~Graph	src/graph.h	/^	~Graph() {$/;"	f	class:Graph
+~Label	src/labels.h	/^	~Label() {$/;"	f	class:Label
+~Ordering	src/ordering.h	/^	~Ordering() {$/;"	f	class:Ordering
+~PLabel	src/labels.h	/^	~PLabel() {$/;"	f	class:PLabel
+~WGraph	src/graph.h	/^	~WGraph() {$/;"	f	class:WGraph

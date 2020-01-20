@@ -1,0 +1,192 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CXXFLAGS	Makefile	/^CXXFLAGS = -std=c++11 -w -O3$/;"	m
+GENKG	UsedSt.h	/^enum Mode{ RUN_PLLD = 0, RUN_PLLR, GENKG, GENRD, RUN_PLLPAL};$/;"	e	enum:Mode
+GENRD	UsedSt.h	/^enum Mode{ RUN_PLLD = 0, RUN_PLLR, GENKG, GENRD, RUN_PLLPAL};$/;"	e	enum:Mode
+HeapNode	pll.h	/^	HeapNode(double d, int u){$/;"	f	struct:HeapNode
+HeapNode	pll.h	/^typedef struct HeapNode {$/;"	s
+HeapNode	pll.h	/^} HeapNode;$/;"	t	typeref:struct:HeapNode
+HeapNodeInt	pllInt.h	/^	HeapNodeInt(int d, int u){$/;"	f	struct:HeapNodeInt
+HeapNodeInt	pllInt.h	/^typedef struct HeapNodeInt {$/;"	s
+HeapNodeInt	pllInt.h	/^} HeapNodeInt;$/;"	t	typeref:struct:HeapNodeInt
+ISEQUAL	pll.h	8;"	d
+Mode	UsedSt.h	/^enum Mode{ RUN_PLLD = 0, RUN_PLLR, GENKG, GENRD, RUN_PLLPAL};$/;"	g
+OUTPUT	Makefile	/^OUTPUT=..\/bin\/$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS=$(wildcard *.cpp *.h)$/;"	m
+RUN_PLLD	UsedSt.h	/^enum Mode{ RUN_PLLD = 0, RUN_PLLR, GENKG, GENRD, RUN_PLLPAL};$/;"	e	enum:Mode
+RUN_PLLPAL	UsedSt.h	/^enum Mode{ RUN_PLLD = 0, RUN_PLLR, GENKG, GENRD, RUN_PLLPAL};$/;"	e	enum:Mode
+RUN_PLLR	UsedSt.h	/^enum Mode{ RUN_PLLD = 0, RUN_PLLR, GENKG, GENRD, RUN_PLLPAL};$/;"	e	enum:Mode
+__CENT__	cent.h	2;"	d
+__CentInt__	centInt.h	2;"	d
+__PLLINT__	pllInt.h	2;"	d
+__PLL__	pll.h	2;"	d
+__TEST__	test.h	2;"	d
+__USEDST__	UsedSt.h	2;"	d
+betweenness	pll.cpp	/^void pll::betweenness(int s){$/;"	f	class:pll
+betweenness	pllInt.cpp	/^void pllInt::betweenness(int s){$/;"	f	class:pllInt
+cent	cent.cpp	/^cent::cent() {$/;"	f	class:cent
+cent	cent.h	/^class cent {$/;"	c
+centInt	centInt.cpp	/^centInt::centInt() {$/;"	f	class:centInt
+centInt	centInt.h	/^class centInt {$/;"	c
+centrality	pll.h	/^	double *centrality;$/;"	m	class:pll
+centrality	pllInt.h	/^	double *centrality;$/;"	m	class:pllInt
+changedList	pll.h	/^	vector<int> changedList;$/;"	m	class:pll
+changedList	pllInt.h	/^	vector<int> changedList;$/;"	m	class:pllInt
+chlV1	cent.cpp	/^void cent::chlV1(int runcase) {	$/;"	f	class:cent
+chlV1	centInt.cpp	/^void centInt::chlV1(int runcase, int threadNum = 1) {$/;"	f	class:centInt
+chlV2	cent.cpp	/^void cent::chlV2(int runcase) {$/;"	f	class:cent
+chlV2	centInt.cpp	/^void centInt::chlV2(int runcase) {$/;"	f	class:centInt
+d	pll.h	/^	double d;$/;"	m	struct:HeapNode
+d	pllInt.h	/^	int d;$/;"	m	struct:HeapNodeInt
+deal	cent.cpp	/^void cent::deal(string st, bool degree, int runcase = 200) {$/;"	f	class:cent
+deal	cent.cpp	/^void cent::deal(string st, string st2, int runcase = 200) {$/;"	f	class:cent
+deal	centInt.cpp	/^void centInt::deal(string st, bool degree, int runcase = 200) {$/;"	f	class:centInt
+delta	pll.h	/^	double *delta;$/;"	m	class:pll
+delta	pllInt.h	/^	double *delta;$/;"	m	class:pllInt
+disOutput	pll.cpp	/^void pll::disOutput(string st) {$/;"	f	class:pll
+disOutput	pllInt.cpp	/^void pllInt::disOutput(string st) {$/;"	f	class:pllInt
+dist	pll.h	/^	double *dist;	$/;"	m	class:pll
+dist	pllInt.h	/^	int *dist;$/;"	m	class:pllInt
+distPrune	pll.h	/^	vector<double> distPrune;	\/\/speed up vk-u distance	$/;"	m	class:pll
+distPrune	pllInt.h	/^	vector<int> distPrune;	\/\/speed up vk-u distance	$/;"	m	class:pllInt
+f	cent.h	/^	double f;$/;"	m	struct:valCent
+f	centInt.h	/^	double f;$/;"	m	struct:valcentInt
+f	pll.h	/^	double f;$/;"	m	struct:valPll
+f	pllInt.h	/^	int f;$/;"	m	struct:valpllInt
+fai	pll.h	/^	int *fai;$/;"	m	class:pll
+fai	pllInt.h	/^	int *fai;$/;"	m	class:pllInt
+father	UsedSt.h	/^	int father;$/;"	m	struct:hoppath
+file	cent.h	/^	string file;$/;"	m	class:cent
+file	centInt.h	/^	string file;$/;"	m	class:centInt
+file	pll.h	/^	string file;$/;"	m	class:pll
+file	pllInt.h	/^	string file;$/;"	m	class:pllInt
+file	test.h	/^	string file;$/;"	m	class:test
+fileAssign	pll.cpp	/^void pll::fileAssign(string st) {$/;"	f	class:pll
+fileAssign	pllInt.cpp	/^void pllInt::fileAssign(string st) {$/;"	f	class:pllInt
+fileAssign	pllInt.cpp	/^void pllInt::fileAssign(string st, string st2) {$/;"	f	class:pllInt
+fileW	pllInt.h	/^	string fileW;$/;"	m	class:pllInt
+getLabelSize	pll.cpp	/^long long pll::getLabelSize() {$/;"	f	class:pll
+getLabelSize	pllInt.cpp	/^long long pllInt::getLabelSize() {$/;"	f	class:pllInt
+goal	UsedSt.h	/^	int goal;$/;"	m	struct:hop
+goal	UsedSt.h	/^	int goal;$/;"	m	struct:hoppath
+goal	UsedSt.h	/^    int goal;$/;"	m	struct:hopInt
+graph	pll.h	/^	vector<vector<hop> > graph;$/;"	m	class:pll
+graph	pllInt.h	/^	vector<vector<hopInt> > graph;$/;"	m	class:pllInt
+graphGen	pllInt.cpp	/^void pllInt::graphGen(){$/;"	f	class:pllInt
+graphGen	test.h	/^	void graphGen(){$/;"	f	class:test
+graphInit	pll.cpp	/^void pll::graphInit() {$/;"	f	class:pll
+graphInit	pllInt.cpp	/^void pllInt::graphInit() {$/;"	f	class:pllInt
+graphInput	pll.cpp	/^void pll::graphInput(){$/;"	f	class:pll
+graphInput	pllInt.cpp	/^void pllInt::graphInput(){$/;"	f	class:pllInt
+graphKGGen	pll.cpp	/^void pll::graphKGGen(string outfile){$/;"	f	class:pll
+graphRDGen	pll.cpp	/^void pll::graphRDGen(string outfile){$/;"	f	class:pll
+graphSet	pll.h	/^	vector<set<int> > graphSet;$/;"	m	class:pll
+hashnode	pll.h	/^	map<int, int> hashnode;	\/\/hash node to name$/;"	m	class:pll
+hashnode	pllInt.h	/^	map<int, int> hashnode;	\/\/hash node to name$/;"	m	class:pllInt
+hop	UsedSt.h	/^	hop(){$/;"	f	struct:hop
+hop	UsedSt.h	/^	hop(int goal, double len) {$/;"	f	struct:hop
+hop	UsedSt.h	/^typedef struct hop {$/;"	s
+hop	UsedSt.h	/^} hop;$/;"	t	typeref:struct:hop
+hopInt	UsedSt.h	/^    hopInt(){$/;"	f	struct:hopInt
+hopInt	UsedSt.h	/^    hopInt(int goal, int len) {$/;"	f	struct:hopInt
+hopInt	UsedSt.h	/^typedef struct hopInt {$/;"	s
+hopInt	UsedSt.h	/^} hopInt;$/;"	t	typeref:struct:hopInt
+hoppath	UsedSt.h	/^	hoppath(){$/;"	f	struct:hoppath
+hoppath	UsedSt.h	/^	hoppath(int goal, double len, int father) {$/;"	f	struct:hoppath
+hoppath	UsedSt.h	/^typedef struct hoppath {$/;"	s
+hoppath	UsedSt.h	/^} hoppath;$/;"	t	typeref:struct:hoppath
+label	pll.h	/^	vector<vector<hop> > label;$/;"	m	class:pll
+label	pllInt.h	/^	vector<vector<hopInt> > label;$/;"	m	class:pllInt
+labelOutput	pll.cpp	/^void pll::labelOutput(string st) {$/;"	f	class:pll
+labelOutput	pllInt.cpp	/^void pllInt::labelOutput(string st) {$/;"	f	class:pllInt
+labelSize	pll.h	/^	long long labelSize;$/;"	m	class:pll
+labelSize	pllInt.h	/^	long long labelSize;$/;"	m	class:pllInt
+len	UsedSt.h	/^	double len;$/;"	m	struct:hop
+len	UsedSt.h	/^	double len;$/;"	m	struct:hoppath
+len	UsedSt.h	/^    int len;$/;"	m	struct:hopInt
+lessSortCent	cent.h	/^static bool lessSortCent(valCent v1, valCent v2) {$/;"	f
+lessSortPll	pll.h	/^static bool lessSortPll(valPll v1, valPll v2) {$/;"	f
+lessSortcentInt	centInt.h	/^static bool lessSortcentInt(valcentInt v1, valcentInt v2) {$/;"	f
+lessSortpllInt	pllInt.h	/^static bool lessSortpllInt(valpllInt v1, valpllInt v2) {$/;"	f
+main	source.cpp	/^int main(int argc, char*argv[]) {$/;"	f
+maxDouble	pll.h	/^	double maxDouble;$/;"	m	class:pll
+maxDouble	pllInt.h	/^	double maxDouble;$/;"	m	class:pllInt
+name	cent.h	/^	int name;$/;"	m	struct:valCent
+name	centInt.h	/^	int name;$/;"	m	struct:valcentInt
+name	pll.h	/^	int name;$/;"	m	struct:valPll
+name	pllInt.h	/^	int name;$/;"	m	struct:valpllInt
+newName	cent.h	/^	vector<int> newName;$/;"	m	class:cent
+newName	centInt.h	/^	vector<int> newName;$/;"	m	class:centInt
+newName	pll.h	/^	vector<int> newName;$/;"	m	class:pll
+newName	pllInt.h	/^	vector<int> newName;$/;"	m	class:pllInt
+node	test.h	5;"	d
+nodeNum	cent.h	/^	int nodeNum;$/;"	m	class:cent
+nodeNum	centInt.h	/^	int nodeNum;$/;"	m	class:centInt
+nodeNum	pll.h	/^	int nodeNum;$/;"	m	class:pll
+nodeNum	pllInt.h	/^	int nodeNum;$/;"	m	class:pllInt
+oldName	cent.h	/^	vector<int> oldName;$/;"	m	class:cent
+oldName	centInt.h	/^	vector<int> oldName;$/;"	m	class:centInt
+oldName	pll.h	/^	vector<int> oldName;$/;"	m	class:pll
+oldName	pllInt.h	/^	vector<int> oldName;$/;"	m	class:pllInt
+operator <	UsedSt.h	/^	bool operator < (struct hoppath const &b){$/;"	f	struct:hoppath
+operator <	UsedSt.h	/^	friend bool operator < (struct hop const &a, struct hop const &b)$/;"	f	struct:hop
+operator <	UsedSt.h	/^    friend bool operator < (struct hopInt const &a, struct hopInt const &b)$/;"	f	struct:hopInt
+operator <	pll.h	/^	bool operator  < (const HeapNode & rhs) const {$/;"	f	struct:HeapNode
+operator <	pllInt.h	/^	bool operator  < (const HeapNodeInt & rhs) const {$/;"	f	struct:HeapNodeInt
+orderSort	pll.cpp	/^void pll::orderSort() {$/;"	f	class:pll
+orderSort	pllInt.cpp	/^void pllInt::orderSort() {$/;"	f	class:pllInt
+p1	cent.h	/^	pll p1;$/;"	m	class:cent
+p1	centInt.h	/^	pllInt p1;$/;"	m	class:centInt
+pll	pll.h	/^	pll(){$/;"	f	class:pll
+pll	pll.h	/^	pll(string st){$/;"	f	class:pll
+pll	pll.h	/^class pll {$/;"	c
+pllInt	pllInt.h	/^	pllInt(){$/;"	f	class:pllInt
+pllInt	pllInt.h	/^	pllInt(string st){$/;"	f	class:pllInt
+pllInt	pllInt.h	/^class pllInt {$/;"	c
+prune	pll.cpp	/^void pll::prune() {$/;"	f	class:pll
+prune	pllInt.cpp	/^void pllInt::prune() {$/;"	f	class:pllInt
+pruneBC	pll.cpp	/^void pll::pruneBC(vector<int>& newName, vector<int>& oldName){$/;"	f	class:pll
+pruneBC	pllInt.cpp	/^void pllInt::pruneBC(vector<int>& newName, vector<int>& oldName){$/;"	f	class:pllInt
+pruneBfs	pll.cpp	/^void pll::pruneBfs(int u) {$/;"	f	class:pll
+pruneBfs	pllInt.cpp	/^void pllInt::pruneBfs(int u) {$/;"	f	class:pllInt
+query	pll.cpp	/^double pll::query(int s, int t) {$/;"	f	class:pll
+query	pllInt.cpp	/^int pllInt::query(int s, int t) {$/;"	f	class:pllInt
+reinput	pll.cpp	/^void pll::reinput() {$/;"	f	class:pll
+reinput	pllInt.cpp	/^void pllInt::reinput() {$/;"	f	class:pllInt
+restart	pll.cpp	/^void pll::restart() {$/;"	f	class:pll
+restart	pllInt.cpp	/^void pllInt::restart() {$/;"	f	class:pllInt
+stacklist	pll.h	/^	vector<int> stacklist;$/;"	m	class:pll
+stacklist	pllInt.h	/^	vector<int> stacklist;$/;"	m	class:pllInt
+test	test.h	/^class test{$/;"	c
+testBfs	test.h	/^	void testBfs(){$/;"	f	class:test
+testFile	test.h	/^	void testFile(string file1, string file2){$/;"	f	class:test
+testFloyd	test.h	/^	void testFloyd() {$/;"	f	class:test
+tryAddHashNode	pll.cpp	/^int pll::tryAddHashNode(int x){$/;"	f	class:pll
+tryAddHashNode	pllInt.cpp	/^int pllInt::tryAddHashNode(int x){$/;"	f	class:pllInt
+tryAddHashNodeSet	pll.cpp	/^int pll::tryAddHashNodeSet(int x){$/;"	f	class:pll
+tryAddNode	pll.cpp	/^void pll::tryAddNode(int x){$/;"	f	class:pll
+tryAddNode	pllInt.cpp	/^void pllInt::tryAddNode(int x){$/;"	f	class:pllInt
+u	pll.h	/^	int u;$/;"	m	struct:HeapNode
+u	pllInt.h	/^	int u;$/;"	m	struct:HeapNodeInt
+valCent	cent.h	/^	valCent(int name, double f) {$/;"	f	struct:valCent
+valCent	cent.h	/^typedef struct valCent {$/;"	s
+valCent	cent.h	/^} valCent;$/;"	t	typeref:struct:valCent
+valList	cent.h	/^	vector<valCent> valList;	$/;"	m	class:cent
+valList	centInt.h	/^	vector<valcentInt> valList;$/;"	m	class:centInt
+valList	pll.h	/^	vector<valPll> valList;$/;"	m	class:pll
+valList	pllInt.h	/^	vector<valpllInt> valList;$/;"	m	class:pllInt
+valPll	pll.h	/^	valPll(int name, double f) {$/;"	f	struct:valPll
+valPll	pll.h	/^typedef struct valPll {$/;"	s
+valPll	pll.h	/^} valPll;$/;"	t	typeref:struct:valPll
+valcentInt	centInt.h	/^	valcentInt(int name, double f) {$/;"	f	struct:valcentInt
+valcentInt	centInt.h	/^typedef struct valcentInt {$/;"	s
+valcentInt	centInt.h	/^} valcentInt;$/;"	t	typeref:struct:valcentInt
+valpllInt	pllInt.h	/^	valpllInt(int name, int f) {$/;"	f	struct:valpllInt
+valpllInt	pllInt.h	/^typedef struct valpllInt {$/;"	s
+valpllInt	pllInt.h	/^} valpllInt;$/;"	t	typeref:struct:valpllInt
+visited	pll.h	/^	bool *visited;$/;"	m	class:pll
+visited	pllInt.h	/^	bool *visited;$/;"	m	class:pllInt

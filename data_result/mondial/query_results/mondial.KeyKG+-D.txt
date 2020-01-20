@@ -1,0 +1,82 @@
+time: 0.35 ms
+weight: 0.0
+time: 0.45 ms
+weight: 0.0
+time: 0.8 ms
+weight: 0.0
+time: 0.45 ms
+weight: 0.0
+time: 1.05 ms
+weight: 0.0
+time: 0.4 ms
+weight: 0.0
+time: 11.4 ms
+weight: 31.67848289012909
+time: 10.1 ms
+weight: 42.02774393558502
+time: 40.0 ms
+weight: 0.0
+time: 1.2 ms
+weight: 0.0
+time: 16.0 ms
+weight: 0.0
+time: 0.8 ms
+weight: 0.0
+time: 13.15 ms
+weight: 10.759806632995605
+time: 3.8 ms
+weight: 3.295238733291626
+time: 2.9 ms
+weight: 10.086253881454468
+time: 9.85 ms
+weight: 0.0
+time: 2.15 ms
+weight: 16.271404266357422
+time: 1.6 ms
+weight: 16.597524642944336
+time: 2.0 ms
+weight: 7.023401975631714
+time: 1.3 ms
+weight: 13.88079833984375
+time: 2.15 ms
+weight: 16.50828504562378
+time: 12.25 ms
+weight: 11.004664540290833
+time: 5.9 ms
+weight: 76.61291813850403
+time: 2.65 ms
+weight: 77.48351752758026
+time: 6.75 ms
+weight: 47.81736183166504
+time: 2.5 ms
+weight: 26.455467700958252
+time: 23.0 ms
+weight: 30.253862261772156
+time: 10.45 ms
+weight: 11.139031410217285
+time: 36.05 ms
+weight: 15.402552127838135
+time: 2.4 ms
+weight: 15.233561038970947
+time: 3.05 ms
+weight: 12.760945677757263
+time: 6.7 ms
+weight: 10.866521716117859
+time: 2.75 ms
+weight: 12.602928400039673
+time: 2.25 ms
+weight: 12.738582015037537
+time: 3.9 ms
+weight: 11.243742227554321
+time: 5.1 ms
+weight: 114.34008979797363
+time: 4.75 ms
+weight: 60.49471962451935
+time: 3.85 ms
+weight: 47.50049018859863
+time: 1.25 ms
+weight: 9.624448776245117
+time: 3.75 ms
+weight: 18.827154397964478
+avg time: 6.529999999999999 ms
+avg weight: 19.76328749358654

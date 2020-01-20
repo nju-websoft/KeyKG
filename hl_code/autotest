@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./test ./data/mondial.txt >> log.txt
+./test ./data/linkedmdb.txt >> log.txt
+./test ./data/dbpedia201610.txt >> log.txt
+

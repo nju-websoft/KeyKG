@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#make
+
+sour=$1
+pref="./testdata/"
+#rm -rf $pref
+#mkdir -p $pref
+goal=${pref}${sour##*/}
+if [ ! -f "$goal" ]; then
+  ./bin/bcPLL -GR $sour $goal
+fi
+echo $goal
+./bin/bcPLL -PD $goal -T 200
+echo "SHP"
+./bin/sspexp_run -x -d 0 -w 1 -s 0 -m 2 -g $goal -e SHP
+echo "BHP"
+./bin/sspexp_run -x -d 0 -w 1 -s 0 -m 1 -g $goal -e BHP 
+echo "DHP"
+./bin/sspexp_run -x -d 0 -w 1 -s 0 -m 0 -g $goal -e DHP 
+
