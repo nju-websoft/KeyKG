@@ -6,4 +6,4 @@ The folder /src/DOGST/ contains our implementation of KeyKG & KeyKG+.
 
 
 
-Because the index is too big, we can't provide the data for Linkedmdb and DBpedia, but /src/TestCode/GeneratePLL.java contains the code to generate the data. 
+Please find the data source in the paper and build the index by yourself. /src/TestCode/GeneratePLL.java contains the code to generate the data. 
