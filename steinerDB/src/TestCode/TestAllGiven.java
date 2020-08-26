@@ -253,9 +253,6 @@ public class TestAllGiven {
 			
 		}
 		
-
-
-		
 		if (testPruned) {
 			double iTime = 1;
 			int testTime = 1;

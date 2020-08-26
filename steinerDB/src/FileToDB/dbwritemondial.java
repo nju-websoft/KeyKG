@@ -15,7 +15,6 @@ import org.apache.jena.util.FileManager;
 
 import FileToDB.dbwritepedia.Edge;
 import graph.WeightAssign;
-//import com.csvreader.*;
 
 public class dbwritemondial {
 
